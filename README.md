@@ -7,18 +7,21 @@
 
 # Assassin’s Creed VR
 
-Play the original 2007 **Assassin’s Creed** on Steam with OpenXR. Tested on Meta Quest 3 with a Windows PC.
+**Full motion controls in first person.** Fight and climb as Altaïr with tracked left and right hands, stereo OpenXR and 6DoF head tracking.
+
+For the original **Assassin’s Creed (2007)** on Steam for Windows. Tested on Meta Quest 3.
 
 <img src="https://github.com/user-attachments/assets/c473fe3b-a89f-4482-904a-7e8cdefdf2bb" width="400" alt="Assassin’s Creed VR in-game screenshot" />
 
 ## FEATURES
 
-- **Look, lean and reach in first person** with stereo VR, 6DoF head tracking and both motion controllers. Your hands and forearms follow the controllers.
-- **Climb by hand.** Grab ledges and pull yourself up hand over hand. Feel controller feedback when a hand touches a wall.
-- **Fight with your sword.** Draw from your hip or back, swing for speed-based hits, raise the blade to guard, parry and counter, or shove with an open palm.
-- **Flick out the hidden blade** and take down guards from behind. The blade has its own sound effects.
-- **Check health and the map on your wrist.** Look down at your forearm while you play.
-- **Play Desmond and Altaïr in third person** with gamepad-style movement, combat and Eagle Vision.
+| | What you can do |
+| :---: | --- |
+| <img src="assets/feature-icons/sword.png" width="26" height="26" alt="" /> | **Sword combat.** Draw your sword from your hip or back. Swing faster to hit harder, raise the blade to block, parry and counter, or shove with an open palm. |
+| <img src="assets/feature-icons/climb.png" width="26" height="26" alt="" /> | **Climb and pull yourself over ledges.** Grip with either hand and switch hands as you climb. Feel controller feedback on contact with the wall. |
+| <img src="assets/feature-icons/hidden-blade.svg" width="26" height="26" alt="" /> | **Hidden blade and stealth kills.** Flick your wrist to extend the blade, then take down a guard from behind. |
+| <img src="assets/feature-icons/look.png" width="26" height="26" alt="" /> | **Wrist HUD.** Check health and the map by looking at your forearm. |
+| <img src="assets/feature-icons/swap.png" width="26" height="26" alt="" /> | **Third-person VR.** Play as Desmond or Altaïr with gamepad-style movement, combat and Eagle Vision. |
 
 ## Install and launch
 
