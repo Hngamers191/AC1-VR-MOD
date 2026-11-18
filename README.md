@@ -1,3 +1,4 @@
+<img width="679" height="843" alt="Screenshot 2026-11-18 011328" src="https://github.com/user-attachments/assets/c473fe3b-a89f-4482-904a-7e8cdefdf2bb" />
 # AC1-VR-MOD
 Experimental VR mod for the original Assassin’s Creed (2007, Steam) using OpenXR, built for Meta Quest 3. Motion-controlled first person, third person Desmond/Altair, hand climbing, sword and hidden-blade combat, wrist health bar, F8 in-VR settings menu, and a Mods tab . Unofficial fan project.
 Assassin’s Creed 1 VR Mod
