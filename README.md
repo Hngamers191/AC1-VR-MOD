@@ -1,7 +1,9 @@
 > [!IMPORTANT]
-> **Test builds & discussion** · [Join Flat2VR Modding](https://discord.gg/P4q9zt7ek)
+> **Test builds & discussion**
 >
-> Find the **Assassin’s Creed VR** thread for test build availability and feedback.
+> [Join Flat2VR Modding](https://discord.gg/P4q9zt7ek) · [Assassin’s Creed VR thread](https://discord.com/channels/747967102895390741/1567686374251831416)
+>
+> Use the thread for test build availability and feedback.
 
 # Assassin’s Creed VR
 
