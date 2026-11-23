@@ -1,75 +1,80 @@
-> [!IMPORTANT]
-> **Test builds & discussion**
->
-> [Join Flat2VR Modding](https://discord.gg/P4q9zt7ek) · [Assassin’s Creed VR thread](https://discord.com/channels/747967102895390741/1567686374251831416)
->
-> Use the thread for test build availability and feedback.
+<p align="center">
+  <img src="docs/img/hero.png" width="420" alt="First-person view from the mod: both of Altair's hands on a stone wall above a Jerusalem street">
+</p>
 
-# Assassin’s Creed VR
+<h1 align="center">Assassin's Creed VR (2007)</h1>
 
-**Climb the walls. Jump from roof to roof. Dive headfirst off the edge.** Choose your blade, parry a guard’s strike, or throw your sword at them. Cross the city through a day–night cycle as rain, fog and wind roll in.
+<p align="center">
+  <img src="https://img.shields.io/badge/runtime-OpenXR-0C6B7D?style=flat-square" alt="Runtime: OpenXR">
+  <img src="https://img.shields.io/badge/game-AC1%20DX10-0C6B7D?style=flat-square" alt="Game: AC1 DX10">
+  <img src="https://img.shields.io/badge/headset-Quest%203%20tested-0C6B7D?style=flat-square" alt="Headset: Quest 3 tested">
+  <img src="https://img.shields.io/badge/status-in%20development-8C5A12?style=flat-square" alt="Status: in development">
+</p>
 
-**First-person VR · 6DoF head tracking · full motion controls for both hands · stereo OpenXR**
+<p align="center"><b>First-person VR · 6DoF head tracking · full motion controls for both hands · stereo OpenXR</b></p>
 
-For the original **Assassin’s Creed (2007)** on Steam for Windows. The base VR mod has been tested on Meta Quest 3.
+<p align="center"><b><a href="https://hngamers191.github.io/AC1-VR-MOD/">Open the site →</a></b></p>
 
-<img src="https://github.com/user-attachments/assets/c473fe3b-a89f-4482-904a-7e8cdefdf2bb" width="400" alt="Assassin’s Creed VR in-game screenshot" />
+---
 
-## FEATURES
+Masyaf and Jerusalem in a headset. Tracked hands, a sword you swing yourself, climbing
+with your own grip — running on the original game through OpenXR.
 
-| | What you can do |
-| :---: | --- |
-| <img src="assets/feature-icons/climb.png" width="26" height="26" alt="" /> | **Parkour in first person.** Grab ledges with either hand and pull yourself up hand over hand. Feel controller feedback on contact with the wall. Jump between rooftops and dive headfirst over the edge. |
-| <img src="assets/feature-icons/sword.png" width="26" height="26" alt="" /> | **Draw, duel and throw your sword.** Draw the blade from your hip or back. Swing faster to hit harder, raise the blade to block, parry and counter, shove with an open palm, or throw the sword at an enemy. |
-| | **Choose your blade.** Pick Altaïr’s original sword, a curved saber, the Sword of Eden, or another sword model from the in-VR menu. |
-| <img src="assets/feature-icons/hidden-blade.svg" width="26" height="26" alt="" /> | **Hidden blade and stealth kills.** Flick your wrist to extend the blade, then take down a guard from behind. |
-| | **Day–night cycle and procedural weather.** Traverse the city from daylight to night as rain, fog and wind change around you. |
-| <img src="assets/feature-icons/look.png" width="26" height="26" alt="" /> | **Wrist HUD.** Check health and the map by looking at your forearm. |
-| <img src="assets/feature-icons/swap.png" width="26" height="26" alt="" /> | **Third-person VR.** Play as Desmond or Altaïr with gamepad-style movement, combat and Eagle Vision. |
+Become Altair in full immersive VR with this Assassin's Creed VR port. Wield the hidden
+blade and Altair's sword in first person, and be an assassin in the Holy Land of Jerusalem.
+
+## What the mod adds
+
+- **Tracked hands and body** — your own hands in first person, with live fingers and a body that moves under you
+- **Physical sword combat** — swing it yourself; hits land where the blade lands, blocks come from your guard
+- **Climb with your grip** — squeeze a ledge, pull down, reach for the next hold with your free hand
+- **Hidden blade** — flick your wrist to extend it, stealth kills from behind on anyone unaware
+- **In-VR settings menu** — Combat, Blade, Comfort, Extras and Mods tabs, floating in front of you
+- **Swappable swords** — Sword of Eden, Sword of Altair v2, Altair's Short Blade from your back, and more
+- **Play as Desmond, in the modern day** *(coming next)* — step out of the Animus and walk the present-day sections in VR
 
 ## Install and launch
 
-1. Install the original **Assassin’s Creed (2007)** from Steam on Windows. Use **Manage → Browse local files** in Steam to open the game folder.
-2. Extract the test ZIP you received. Copy the complete mod folder containing `RUN.bat` into the game folder, next to the game’s `.exe`.
-3. Connect your headset and start its PC OpenXR runtime. Open the mod folder and run `RUN.bat` each time you play.
+For the original **Assassin's Creed (2007)** on Steam for Windows. The base VR mod has
+been tested on Meta Quest 3.
 
-## Controls
+1. Install the original **Assassin's Creed (2007)** from Steam on Windows. Use
+   **Manage → Browse local files** in Steam to open the game folder.
+2. Extract the test ZIP you received. Copy the complete mod folder containing `RUN.bat`
+   into the game folder, next to the game's `.exe`.
+3. Connect your headset and start its PC OpenXR runtime. Open the mod folder and run
+   `RUN.bat` each time you play.
 
-### First person
-
-- Look around and lean with your headset. Use the movement stick to walk.
-- Reach for a ledge, hold **Grip**, and pull down to climb. Alternate hands between holds.
-- Use **Grip** at the hip or back holster to draw or stow your sword. Swing to strike, hold a guard pose to block, or push with an open palm.
-- Flick your wrist to extend the hidden blade. Look at your forearm to check health and the map.
-
-### Third person
-
-- Use the movement and camera sticks for walking and looking.
-- Use the gamepad-style actions to fight and activate Eagle Vision in the Desmond and Animus sections.
-
-### Settings and sword models
-
-Press **F8** on the PC keyboard to open the in-VR menu. Use **Combat**, **Blade**, **Comfort**, **Extras** and **Tune** to adjust settings, including snap or smooth turning, the comfort vignette, soft camera follow, and holster reach.
-
-The **Mods** tab offers Altaïr’s original sword, the Studded Bronze Sword, Brass Broadsword, Curved Saber and Sword of Eden. The Sword of Eden’s engraved glow can be switched on or off. All models use the original sword’s combat and hit area.
+In the headset, click the right thumbstick to open the settings menu.
 
 ## Test notes
 
 Headfirst falls, sword throwing and procedural weather are in active testing.
 
-The mod includes hand and head collision with scenery and improved NPC detail near the edge of the VR view. It is experimental, and the cape and legs can still appear in first person. If you hit a problem, share your headset, the scene and steps to reproduce it in [Issues](https://github.com/Hngamers191/AC1-VR-MOD/issues).
+The mod includes hand and head collision with scenery and improved NPC detail near the
+edge of the VR view. It is experimental, and the cape and legs can still appear in first
+person. If you hit a problem, share your headset, the scene and steps to reproduce it in
+[Issues](https://github.com/Hngamers191/AC1-VR-MOD/issues).
 
-<details>
-<summary>Native rebuild for contributors</summary>
+## Known issues
 
-From the x86 Native Tools Command Prompt for Visual Studio, run `tools\build_native.bat`, then `tools\REHASH.bat` from the mod folder.
+- **Stretching NPCs in third person.** People nearby can stretch or distort for a moment.
+  It does not affect play.
+- **Delays during combat.** Fights with several guards can slow down for a few seconds.
+  That is normal for this build and it settles once the fight ends.
 
-</details>
+Found something else? Message the authors — open an
+[issue](https://github.com/Hngamers191/AC1-VR-MOD/issues), or get in touch with HNgamers
+or MonsterDeadwood directly. Say what you were doing and what happened, and send the
+newest folder from `logs\runs`; that folder is what makes a fault findable.
 
 ## Credits
 
-Mod by **Hngamers** and **Monsterdeadwood**.
+**The VR mod** — HNgamers, MonsterDeadwood
 
-**Sword of Eden | AC Unity** model by **LostOfSpace**, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+**Sword models** — Vortix (Sword of Eden), Yuri (Sword of Altair v2),
+Milacetious (Altair's Short Blade)
 
-Assassin’s Creed is a trademark of Ubisoft. This is an unofficial fan project.
+**The game** — Assassin's Creed, Altair and the original designs are Ubisoft's.
+
+> Ask each model author for permission and credit them before sharing this mod publicly.

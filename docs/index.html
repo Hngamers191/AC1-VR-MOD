@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Assassin's Creed VR (2007) — AC1 VR Mod</title>
+<meta name="description" content="A VR port of the original Assassin's Creed (2007) for OpenXR headsets. Tracked hands, physical sword combat and climbing with your own grip.">
+<meta property="og:title" content="Assassin's Creed VR (2007)">
+<meta property="og:description" content="Become Altair in full immersive VR. Wield the hidden blade and Altair's sword in first person.">
+<meta property="og:image" content="img/hero.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap">
+<style>
+html { -webkit-text-size-adjust: 100%; }
+img { max-width: 100%; }
+body { margin: 0; }
+a { color: #1D4F66; }
+a:hover { color: #0E3446; }
+</style>
+</head>
+<body>
+<div style="position: relative; font-family: Inter, system-ui, sans-serif; color: #223540; min-height: 100%; overflow: hidden; background-color: #BDD4E4; background-image: radial-gradient(70% 55% at 12% 6%, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0) 60%), radial-gradient(60% 45% at 88% 18%, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 62%), radial-gradient(85% 60% at 50% 100%, rgba(142,180,205,0.55) 0%, rgba(142,180,205,0) 65%), radial-gradient(45% 35% at 70% 54%, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 60%), linear-gradient(180deg, #C9DEEC 0%, #A9C6DB 55%, #BBD4E3 100%);">
+
+  <!-- ===== Animus data layer ===== -->
+  <svg aria-hidden="true" viewBox="0 0 1320 2900" preserveAspectRatio="xMidYMin slice" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;">
+    <defs>
+      <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+        <line x1="0" y1="0" x2="0" y2="7" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.75"></line>
+      </pattern>
+      <g id="ring">
+        <polygon points="0,-26 22,-13 22,13 0,26 -22,13 -22,-13" fill="none" stroke="#FFFFFF" stroke-width="1.4"></polygon>
+      </g>
+    </defs>
+
+    <g opacity="0.62" stroke="#FFFFFF" fill="none" stroke-width="1.4" font-family="IBM Plex Mono, monospace" font-size="11">
+      <use href="#ring" x="118" y="300"></use>
+      <use href="#ring" x="162" y="376"></use>
+      <use href="#ring" x="74" y="376"></use>
+      <line x1="140" y1="313" x2="162" y2="350"></line>
+      <line x1="96" y1="313" x2="74" y2="350"></line>
+      <line x1="118" y1="274" x2="118" y2="236"></line>
+      <line x1="118" y1="236" x2="86" y2="214"></line>
+      <line x1="162" y1="402" x2="200" y2="424"></line>
+      <line x1="74" y1="402" x2="40" y2="424"></line>
+      <text x="112" y="230" fill="#FFFFFF" stroke="none">N</text>
+      <text x="76" y="210" fill="#FFFFFF" stroke="none">H</text>
+      <text x="204" y="430" fill="#FFFFFF" stroke="none">O</text>
+      <text x="28" y="432" fill="#FFFFFF" stroke="none">H</text>
+    </g>
+
+    <g opacity="0.5" stroke="#FFFFFF" fill="none" stroke-width="1.4" font-family="IBM Plex Mono, monospace" font-size="11">
+      <use href="#ring" x="1180" y="1460"></use>
+      <use href="#ring" x="1224" y="1384"></use>
+      <use href="#ring" x="1136" y="1384"></use>
+      <line x1="1202" y1="1447" x2="1224" y2="1410"></line>
+      <line x1="1158" y1="1447" x2="1136" y2="1410"></line>
+      <line x1="1180" y1="1486" x2="1180" y2="1524"></line>
+      <line x1="1224" y1="1358" x2="1256" y2="1336"></line>
+      <text x="1174" y="1542" fill="#FFFFFF" stroke="none">N</text>
+      <text x="1260" y="1332" fill="#FFFFFF" stroke="none">H</text>
+      <text x="1096" y="1358" fill="#FFFFFF" stroke="none">O</text>
+    </g>
+
+    <g opacity="0.45" stroke="#FFFFFF" fill="none" stroke-width="1.4" font-family="IBM Plex Mono, monospace" font-size="11">
+      <use href="#ring" x="96" y="2320"></use>
+      <use href="#ring" x="140" y="2396"></use>
+      <line x1="118" y1="2333" x2="140" y2="2370"></line>
+      <line x1="96" y1="2294" x2="96" y2="2258"></line>
+      <text x="90" y="2252" fill="#FFFFFF" stroke="none">H</text>
+    </g>
+
+    <g opacity="0.8">
+      <rect x="236" y="150" width="54" height="13" fill="url(#hatch)"></rect>
+      <rect x="236" y="168" width="30" height="5" fill="#FFFFFF" fill-opacity="0.8"></rect>
+      <rect x="1012" y="214" width="42" height="11" fill="url(#hatch)"></rect>
+      <rect x="150" y="1060" width="66" height="14" fill="url(#hatch)"></rect>
+      <rect x="150" y="1080" width="38" height="5" fill="#FFFFFF" fill-opacity="0.75"></rect>
+      <rect x="1086" y="820" width="48" height="12" fill="url(#hatch)"></rect>
+      <rect x="92" y="1860" width="58" height="13" fill="url(#hatch)"></rect>
+      <rect x="1140" y="2180" width="40" height="11" fill="url(#hatch)"></rect>
+      <rect x="1060" y="2620" width="52" height="12" fill="url(#hatch)"></rect>
+    </g>
+    <g stroke="#FFFFFF" stroke-width="1.6" opacity="0.85">
+      <path d="M330 96 l14 14 M344 96 l-14 14"></path>
+      <path d="M1060 470 l12 12 M1072 470 l-12 12"></path>
+      <path d="M210 1560 l12 12 M222 1560 l-12 12"></path>
+      <path d="M980 1960 l14 14 M994 1960 l-14 14"></path>
+      <path d="M560 2480 l12 12 M572 2480 l-12 12"></path>
+      <path d="M240 2740 l12 12 M252 2740 l-12 12"></path>
+    </g>
+    <g fill="#FFFFFF" opacity="0.6">
+      <rect x="690" y="120" width="9" height="9"></rect>
+      <rect x="880" y="320" width="7" height="7"></rect>
+      <rect x="420" y="900" width="8" height="8"></rect>
+      <rect x="1120" y="1240" width="7" height="7"></rect>
+      <rect x="300" y="2060" width="8" height="8"></rect>
+      <rect x="860" y="2660" width="8" height="8"></rect>
+    </g>
+  </svg>
+
+  <!-- ===== content ===== -->
+  <div style="position: relative;">
+
+    <!-- top readout -->
+    <div style="border-bottom: 1px solid rgba(255,255,255,0.65); padding: 11px max(16px, env(safe-area-inset-left, 0px)); display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #26404F;">
+      <span>ANIMUS 1.28 &nbsp;//&nbsp; SUBJECT 17 &nbsp;//&nbsp; MEMORY BLOCK 4</span>
+      <span style="color: #456375;">SYNCHRONISATION 94%</span>
+    </div>
+
+    <!-- hero -->
+    <div style="max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 96px 84px;">
+
+      <!-- memory emblem: an original thin-line glyph, not a game logo -->
+      <div style="display: flex; justify-content: center; margin-bottom: 40px;">
+        <svg width="112" height="98" viewBox="0 0 118 104" aria-hidden="true" style="filter: drop-shadow(0 0 22px rgba(255,255,255,0.9));">
+          <polygon points="59,6 112,98 6,98" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-opacity="0.95"></polygon>
+          <polygon points="59,34 87,84 31,84" fill="#FFFFFF" fill-opacity="0.55"></polygon>
+          <line x1="59" y1="6" x2="59" y2="34" stroke="#FFFFFF" stroke-width="1.4" stroke-opacity="0.8"></line>
+          <line x1="6" y1="98" x2="31" y2="84" stroke="#FFFFFF" stroke-width="1.4" stroke-opacity="0.8"></line>
+          <line x1="112" y1="98" x2="87" y2="84" stroke="#FFFFFF" stroke-width="1.4" stroke-opacity="0.8"></line>
+        </svg>
+      </div>
+
+      <div style="text-align: center;">
+        <p style="margin: 0 0 22px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.36em; color: #2F4E60;">GENETIC MEMORY &nbsp;·&nbsp; THE HOLY LAND &nbsp;·&nbsp; 1191</p>
+
+        <!-- Title set in Cinzel, a free roman capital. Swap this block for your own logo image when you have one. -->
+        <h1 style="margin: 0; font-family: Cinzel, 'Times New Roman', serif; font-size: 62px; line-height: 1.04; letter-spacing: 0.02em; font-weight: 500; color: #10303F; text-wrap: balance; text-shadow: 0 0 44px rgba(255,255,255,0.9);">Assassin&#39;s Creed<br><span style="font-weight: 600;">VR</span> <span style="font-weight: 400; color: #2B5469;">(2007)</span></h1>
+
+        <p style="margin: 26px auto 0; max-width: 62ch; font-family: 'IBM Plex Mono', monospace; font-size: 12px; line-height: 1.9; letter-spacing: 0.08em; color: #1C3A4A;">FIRST-PERSON VR &nbsp;·&nbsp; 6DoF HEAD TRACKING &nbsp;·&nbsp; FULL MOTION CONTROLS FOR BOTH HANDS &nbsp;·&nbsp; STEREO OPENXR</p>
+        <p style="margin: 30px auto 0; max-width: 54ch; font-size: 18px; line-height: 1.7; color: #2C4756;">Masyaf and Jerusalem in a headset. Tracked hands, a sword you swing yourself, climbing with your own grip — running on the original game through OpenXR.</p>
+        <p style="margin: 18px auto 0; max-width: 54ch; font-size: 17px; line-height: 1.75; color: #36596B;">Become Altair in full immersive VR with this Assassin&#39;s Creed VR port. Wield the hidden blade and Altair&#39;s sword in first person, and be an assassin in the Holy Land of Jerusalem.</p>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 40px;">
+          <a href="https://github.com/Hngamers191/AC1-VR-MOD/releases" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 30px; background: #15303F; color: #F2F8FB; font-weight: 500; font-size: 15px; text-decoration: none;">Download the latest build</a>
+          <a href="#setup" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 30px; border: 1px solid rgba(21,48,63,0.5); background: rgba(255,255,255,0.45); color: #15303F; font-weight: 500; font-size: 15px; text-decoration: none;">Controls &amp; setup</a>
+        </div>
+
+        <!-- key art -->
+        <figure style="margin: 56px auto 0; max-width: 560px;">
+          <img src="img/hero.png" alt="First-person view from the mod: both of Altair's hands on a stone wall high above a Jerusalem street" style="width: 100%; display: block; border: 1px solid rgba(255,255,255,0.9); box-shadow: 0 24px 60px rgba(28,58,74,0.28);">
+          <figcaption style="margin-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #3B6378;">CAPTURED IN HEADSET &nbsp;·&nbsp; FIRST PERSON</figcaption>
+        </figure>
+      </div>
+
+      <div style="margin: 68px auto 0; max-width: 620px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; justify-content: center;">
+        <svg width="26" height="26" aria-hidden="true"><path d="M13 1 v24 M1 13 h24" stroke="#FFFFFF" stroke-width="1.6"></path></svg>
+        <div style="border: 1px solid rgba(255,255,255,0.9); background: rgba(255,255,255,0.35); padding: 9px 16px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; color: #1C3A4A;">OPENXR &nbsp;·&nbsp; DX10 &nbsp;·&nbsp; QUEST 3 TESTED &nbsp;·&nbsp; 6 BLADES</div>
+      </div>
+    </div>
+
+    <!-- ===== memory playback: clip slots ===== -->
+    <div style="border-top: 1px solid rgba(255,255,255,0.6);">
+      <div style="max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 80px;">
+        <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.26em; color: #2F4E60;">MEMORY PLAYBACK</p>
+        <h2 style="margin: 0 0 10px; font-size: 32px; font-weight: 600; color: #15303F; letter-spacing: -0.015em;">See it move</h2>
+        <p style="margin: 0 0 36px; max-width: 58ch; font-size: 15px; line-height: 1.7; color: #35505F;">A few seconds each, playing on a loop. The file name under every clip is where it lives in the repo.</p>
+
+        <!--
+          THE CLIPS: each <video> below points at a file in  docs/clips/  in the repo.
+          Keep them short (3-6 seconds), muted and under about 5 MB so the page stays quick.
+          To swap one out, change its src. A .gif works in the same place with <img src="clips/name.gif" alt="...">.
+        -->
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px;">
+
+          <figure style="margin: 0;">
+            <video src="clips/climbing.mp4" muted loop playsinline preload="none" data-autoplay aria-label="Climbing a wall hand over hand in first person" style="width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; background: #10303F; border: 1px solid rgba(255,255,255,0.9);"></video>
+            <figcaption style="margin-top: 12px;">
+              <p style="margin: 0; font-size: 16px; font-weight: 600; color: #15303F;">Climbing with your grip</p>
+              <p style="margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: #35505F;">Squeezing a ledge and pulling up hand over hand.</p>
+              <p style="margin: 6px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #4E6C7D;">clips/climbing.mp4</p>
+            </figcaption>
+          </figure>
+
+          <figure style="margin: 0;">
+            <video src="clips/hidden-blade.mp4" muted loop playsinline preload="none" data-autoplay aria-label="A flick of the wrist extends the hidden blade" style="width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; background: #10303F; border: 1px solid rgba(255,255,255,0.9);"></video>
+            <figcaption style="margin-top: 12px;">
+              <p style="margin: 0; font-size: 16px; font-weight: 600; color: #15303F;">The hidden blade flick</p>
+              <p style="margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: #35505F;">A turn of the wrist, and it is out.</p>
+              <p style="margin: 6px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #4E6C7D;">clips/hidden-blade.mp4</p>
+            </figcaption>
+          </figure>
+
+          <figure style="margin: 0;">
+            <video src="clips/vr-menu.mp4" muted loop playsinline preload="none" data-autoplay aria-label="The in-VR settings menu floating in front of the player" style="width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; background: #10303F; border: 1px solid rgba(255,255,255,0.9);"></video>
+            <figcaption style="margin-top: 12px;">
+              <p style="margin: 0; font-size: 16px; font-weight: 600; color: #15303F;">The in-VR menu</p>
+              <p style="margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: #35505F;">Combat, Blade, Comfort, Extras and Mods, floating in front of you.</p>
+              <p style="margin: 6px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #4E6C7D;">clips/vr-menu.mp4</p>
+            </figcaption>
+          </figure>
+
+          <figure style="margin: 0;">
+            <video src="clips/sword-tab.mp4" muted loop playsinline preload="none" data-autoplay aria-label="Swapping sword models in the Mods tab" style="width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; background: #10303F; border: 1px solid rgba(255,255,255,0.9);"></video>
+            <figcaption style="margin-top: 12px;">
+              <p style="margin: 0; font-size: 16px; font-weight: 600; color: #15303F;">The sword tab</p>
+              <p style="margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: #35505F;">Swapping blades in the Mods tab and drawing the new one.</p>
+              <p style="margin: 6px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #4E6C7D;">clips/sword-tab.mp4</p>
+            </figcaption>
+          </figure>
+
+          <figure style="margin: 0; grid-column: span 2;">
+            <video src="clips/combat.mp4" muted loop playsinline preload="none" data-autoplay aria-label="Fighting a guard with the sword in first person" style="width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; background: #10303F; border: 1px solid rgba(255,255,255,0.9);"></video>
+            <figcaption style="margin-top: 12px;">
+              <p style="margin: 0; font-size: 16px; font-weight: 600; color: #15303F;">Combat</p>
+              <p style="margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: #35505F;">Your own swing, your own guard. The blade cuts where you put it.</p>
+              <p style="margin: 6px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #4E6C7D;">clips/combat.mp4</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- features -->
+    <div style="border-top: 1px solid rgba(255,255,255,0.6);">
+      <div style="max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 80px;">
+        <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.26em; color: #2F4E60;">DECODED MEMORIES</p>
+        <h2 style="margin: 0 0 44px; font-size: 32px; font-weight: 600; color: #15303F; letter-spacing: -0.015em;">What the mod adds</h2>
+
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px;">
+          <div style="border: 1px solid rgba(255,255,255,0.85); background: rgba(255,255,255,0.4); padding: 28px 24px;">
+            <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #3A6075;">01</p>
+            <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600; color: #15303F;">Tracked hands and body</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #35505F;">Your own hands in first person, with live fingers and a body that moves under you.</p>
+          </div>
+          <div style="border: 1px solid rgba(255,255,255,0.85); background: rgba(255,255,255,0.4); padding: 28px 24px;">
+            <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #3A6075;">02</p>
+            <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600; color: #15303F;">Physical sword combat</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #35505F;">Swing it yourself. Hits land where the blade lands, blocks come from your guard.</p>
+          </div>
+          <div style="border: 1px solid rgba(255,255,255,0.85); background: rgba(255,255,255,0.4); padding: 28px 24px;">
+            <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #3A6075;">03</p>
+            <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600; color: #15303F;">Climb with your grip</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #35505F;">Squeeze a ledge, pull down, reach for the next hold with your free hand.</p>
+          </div>
+          <div style="border: 1px solid rgba(255,255,255,0.85); background: rgba(255,255,255,0.4); padding: 28px 24px;">
+            <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #3A6075;">04</p>
+            <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600; color: #15303F;">Hidden blade</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #35505F;">Flick your wrist to extend it. Stealth kills from behind on anyone unaware.</p>
+          </div>
+          <div style="border: 1px solid rgba(255,255,255,0.85); background: rgba(255,255,255,0.4); padding: 28px 24px;">
+            <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #3A6075;">05</p>
+            <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600; color: #15303F;">In-VR settings menu</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #35505F;">Combat, Blade, Comfort, Extras and Mods tabs, floating in front of you. Saves itself.</p>
+          </div>
+          <div style="border: 1px solid rgba(255,255,255,0.85); background: rgba(255,255,255,0.4); padding: 28px 24px;">
+            <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #3A6075;">06</p>
+            <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600; color: #15303F;">Swappable swords</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #35505F;">Sword of Eden, Sword of Altair v2, Altair&#39;s Short Blade from your back, and more.</p>
+          </div>
+          <div style="border: 1px solid rgba(255,255,255,0.85); background: rgba(255,255,255,0.52); padding: 28px 24px; grid-column: span 3;">
+            <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #3A6075;">07 &nbsp;·&nbsp; COMING NEXT</p>
+            <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600; color: #15303F;">Play as Desmond, in the modern day</h3>
+            <p style="margin: 0; max-width: 72ch; font-size: 14px; line-height: 1.7; color: #35505F;">Step out of the Animus and walk the present-day sections in VR as Desmond &mdash; the lab, the room, and the machine you have been lying on. Same tracked hands and the same body, in the modern-day world instead of 1191.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- setup -->
+    <div id="setup" style="border-top: 1px solid rgba(255,255,255,0.6);">
+      <div style="max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 80px;">
+        <div style="display: flex; flex-wrap: wrap; gap: 52px;">
+          <div style="flex: 999 1 440px; min-width: 0;">
+            <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.26em; color: #2F4E60;">INITIALISE</p>
+            <h2 style="margin: 0 0 28px; font-size: 32px; font-weight: 600; color: #15303F;">Install and launch</h2>
+            <p style="margin: 0 0 24px; max-width: 60ch; font-size: 16px; line-height: 1.75; color: #2C4756;">For the original Assassin&#39;s Creed (2007) on Steam for Windows. The base VR mod has been tested on Meta Quest 3.</p>
+            <ol style="margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.9; color: #2C4756;">
+              <li style="margin-bottom: 14px;">Install the original <strong>Assassin&#39;s Creed (2007)</strong> from Steam on Windows. Use <strong>Manage &rarr; Browse local files</strong> in Steam to open the game folder.</li>
+              <li style="margin-bottom: 14px;">Extract the test ZIP you received. Copy the complete mod folder containing <code style="font-family: 'IBM Plex Mono', monospace; background: rgba(255,255,255,0.6); padding: 2px 6px;">RUN.bat</code> into the game folder, next to the game&#39;s <code style="font-family: 'IBM Plex Mono', monospace; background: rgba(255,255,255,0.6); padding: 2px 6px;">.exe</code>.</li>
+              <li>Connect your headset and start its PC OpenXR runtime. Open the mod folder and run <code style="font-family: 'IBM Plex Mono', monospace; background: rgba(255,255,255,0.6); padding: 2px 6px;">RUN.bat</code> each time you play.</li>
+            </ol>
+            <p style="margin: 22px 0 0; font-size: 15px; line-height: 1.7; color: #35505F;">In the headset, click the right thumbstick to open the settings menu.</p>
+          </div>
+          <div style="flex: 1 1 340px; min-width: 0;">
+            <div style="border: 1px solid rgba(255,255,255,0.9); background: rgba(246,251,253,0.72);">
+              <div style="border-bottom: 1px solid rgba(255,255,255,0.9); padding: 10px 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #2F4E60;">TERMINAL</div>
+              <pre style="margin: 0; padding: 20px 16px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; line-height: 1.9; color: #24404F; overflow-x: auto;"><span style="color: #5A7A8B;">&gt;</span> git clone https://github.com/
+    Hngamers191/AC1-VR-MOD
+<span style="color: #5A7A8B;">&gt;</span> copy mod folder &#8594; game folder
+<span style="color: #5A7A8B;">&gt;</span> RUN.bat
+<span style="color: #0E5C78;">  OPENXR SESSION READY</span></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- test notes -->
+    <div style="border-top: 1px solid rgba(255,255,255,0.6);">
+      <div style="max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 72px;">
+        <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.26em; color: #2F4E60;">IN TESTING</p>
+        <h2 style="margin: 0 0 26px; font-size: 32px; font-weight: 600; color: #15303F;">Test notes</h2>
+        <p style="margin: 0 0 16px; max-width: 72ch; font-size: 16px; line-height: 1.75; color: #2C4756;">Headfirst falls, sword throwing and procedural weather are in active testing.</p>
+        <p style="margin: 0; max-width: 72ch; font-size: 16px; line-height: 1.75; color: #2C4756;">The mod includes hand and head collision with scenery and improved NPC detail near the edge of the VR view. It is experimental, and the cape and legs can still appear in first person. If you hit a problem, share your headset, the scene and steps to reproduce it in <a href="https://github.com/Hngamers191/AC1-VR-MOD/issues">Issues</a>.</p>
+      </div>
+    </div>
+
+    <!-- known issues -->
+    <div style="border-top: 1px solid rgba(255,255,255,0.6);">
+      <div style="max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 72px;">
+        <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.26em; color: #2F4E60;">DESYNCHRONISATION</p>
+        <h2 style="margin: 0 0 28px; font-size: 32px; font-weight: 600; color: #15303F;">Known issues</h2>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 18px;">
+          <div style="flex: 1 1 320px; min-width: 0; border-left: 3px solid rgba(255,255,255,0.95); background: rgba(255,255,255,0.35); padding: 22px 24px;">
+            <h3 style="margin: 0 0 8px; font-size: 17px; font-weight: 600; color: #15303F;">Stretching NPCs in third person</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #35505F;">People nearby can stretch or distort for a moment. It is a known quirk of the third-person view and it does not affect play.</p>
+          </div>
+          <div style="flex: 1 1 320px; min-width: 0; border-left: 3px solid rgba(255,255,255,0.95); background: rgba(255,255,255,0.35); padding: 22px 24px;">
+            <h3 style="margin: 0 0 8px; font-size: 17px; font-weight: 600; color: #15303F;">Delays during combat</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #35505F;">Fights with several guards can slow down for a few seconds. That is normal for this build and it settles once the fight ends.</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 26px; border: 1px solid rgba(21,48,63,0.28); background: rgba(255,255,255,0.5); padding: 22px 24px;">
+          <p style="margin: 0; font-size: 15px; line-height: 1.75; color: #2C4756;"><strong style="color: #15303F;">Found something else?</strong> Message the authors. Open an issue on the <a href="https://github.com/Hngamers191/AC1-VR-MOD/issues">repository</a>, or get in touch with HNgamers or MonsterDeadwood directly. Say what you were doing and what happened, and send the newest folder from <code style="font-family: 'IBM Plex Mono', monospace; background: rgba(255,255,255,0.7); padding: 2px 6px;">logs\runs</code> &mdash; that folder is what makes a fault findable.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- credits -->
+    <div style="border-top: 1px solid rgba(255,255,255,0.6);">
+      <div style="max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 60px 84px;">
+        <p style="margin: 0 0 26px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.26em; color: #2F4E60;">CREDITS</p>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; font-size: 14px; line-height: 1.8; color: #35505F;">
+          <div><p style="margin: 0; color: #15303F; font-weight: 600;">The VR mod</p><p style="margin: 6px 0 0;">HNgamers<br>MonsterDeadwood</p></div>
+          <div><p style="margin: 0; color: #15303F; font-weight: 600;">Sword models</p><p style="margin: 6px 0 0;">Vortix — Sword of Eden<br>Yuri — Sword of Altair v2<br>Milacetious — Short Blade</p></div>
+          <div><p style="margin: 0; color: #15303F; font-weight: 600;">The game</p><p style="margin: 6px 0 0;">Assassin&#39;s Creed, Altair and the original designs are Ubisoft&#39;s.</p></div>
+        </div>
+        <p style="margin: 44px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; color: #4E6C7D;">NOTHING IS TRUE &nbsp;//&nbsp; EVERYTHING IS PERMITTED</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+// Clips start only once they scroll into view, so the page stays light on a phone.
+(function () {
+  var vids = document.querySelectorAll('video[data-autoplay]');
+  if (!('IntersectionObserver' in window)) {
+    vids.forEach(function (v) { v.setAttribute('preload', 'metadata'); v.play().catch(function () {}); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.play().catch(function () {}); }
+      else { e.target.pause(); }
+    });
+  }, { rootMargin: '200px 0px' });
+  vids.forEach(function (v) { io.observe(v); });
+})();
+</script>
+</body>
+</html>
