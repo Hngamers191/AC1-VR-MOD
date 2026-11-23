@@ -78,3 +78,9 @@ Milacetious (Altair's Short Blade)
 **The game** — Assassin's Creed, Altair and the original designs are Ubisoft's.
 
 > Ask each model author for permission and credit them before sharing this mod publicly.
+
+## First-person sword test candidate
+
+Use the AC1VR DX10 collaborator test package dated 2026-11-17 as the base. With the game closed, back up the files listed in [the overlay](sword-candidate), then copy the contents of that folder into the mod folder beside its existing RUN.bat, preserving subdirectories. Run `RUN.bat --check` there before launching. For headset play, start the headset's OpenXR runtime and run `RUN.bat` without simulator arguments.
+
+The XR Sim replay recorded ordinary blade damage, an intercepted guard attack and a lethal counter against the same guard. Both processes exited cleanly and the encounter permissions and saves were restored. Physical-headset timing and feel remain unverified for this candidate. [Replay measurements](candidate-source/guard-replay.json)

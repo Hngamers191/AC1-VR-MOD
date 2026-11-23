@@ -1,0 +1,20 @@
+{
+  "run": "20261123_233640_UTC",
+  "engine_sha256": "b889bac7d1af3626dce7a1e082f57ed1e7161a48477a7509255097e6c3f402b6",
+  "ordinary_hit_hp": [
+    31,
+    21
+  ],
+  "block": "DX10_DAMAGE_DISPATCH_WITHHELD",
+  "counter_hp": [
+    11,
+    0
+  ],
+  "block_to_counter_ms": 1537,
+  "same_guard": true,
+  "permission_restored": true,
+  "safe_shutdown": true,
+  "exact_save_restores": 10,
+  "game_exit": 0,
+  "xr_exit": 0
+}

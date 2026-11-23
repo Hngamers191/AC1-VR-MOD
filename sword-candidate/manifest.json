@@ -1,0 +1,1303 @@
+{
+  "schema": "AC1VR_COLLABORATOR_TEST_V1",
+  "version": "AC1VR_DX10_OpenXR_Collab_Test_20261117",
+  "source_candidate": "AC1VR_SWORD_CLIMB_HANDOFF_TEST_20261116",
+  "source_candidate_manifest_sha256": "d0f1c8b64b7c94d4c823a57b3c027c2b3e8892eb914d2fda0184f085a86fa311",
+  "source_candidate_engine_sha256": "467a388e9d67c2e7db9f2f89f66b425177d35bfb57e234223b4d13436157c7be",
+  "native_engine_sha256": "b889bac7d1af3626dce7a1e082f57ed1e7161a48477a7509255097e6c3f402b6",
+  "target_sha256": "576a04841c37be5a819974abd59ea3ecd818f0bc36acab71c62ee0313dca0129",
+  "known_exe_sha256": [
+    "576a04841c37be5a819974abd59ea3ecd818f0bc36acab71c62ee0313dca0129",
+    "7237a7400909b55630171105d07bd71820866f9d74aff423a9bb504555176aa8"
+  ],
+  "physical_visual_acceptance": false,
+  "public_release_ready": false,
+  "package_changes": {
+    "portable_library_loads": {
+      "src/engine.js": [
+        "limb_sword.dll",
+        "limb_sword.dll",
+        "limb_sword.dll",
+        "limb_sword.dll",
+        "limb_sword.dll",
+        "physical_reaction.dll",
+        "limb_sword.dll"
+      ],
+      "src/physical_hit.js": [
+        "physical_reaction.dll",
+        "limb_sword.dll"
+      ]
+    },
+    "portable_launcher": true
+  },
+  "files": {
+    "assets/animus_hands/color_0.dxbc": {
+      "bytes": 11536,
+      "sha256": "3a0fa14ba512afcbd1f10bf0a072a70b3ed6626db008545a813e615109554076"
+    },
+    "assets/animus_hands/color_1.dxbc": {
+      "bytes": 9208,
+      "sha256": "61d1bb3c8a4ffe53ba4ea1b36641562d7dc580aeffc25b0b15e61b3cf16109cd"
+    },
+    "assets/animus_hands/depth_ps.dxbc": {
+      "bytes": 1204,
+      "sha256": "db4f5897423b0ecdfb12ef59a586adbfff7497a65d1cc1fb918cab1ebebf24c5"
+    },
+    "assets/animus_hands/depth_vs_0.dxbc": {
+      "bytes": 2952,
+      "sha256": "7e46d281cd999da69b037efe54869580c887fa92c2f64217419644be30de2bd1"
+    },
+    "assets/animus_hands/EFFECT.json": {
+      "bytes": 3030,
+      "sha256": "9eaeea0c8dccc90d600d1ab82f1d9c8411906e279bcaf735fb6ef89be73c96be"
+    },
+    "assets/animus_hands/mask_0.f32": {
+      "bytes": 4194304,
+      "sha256": "7868424fb9453d9dcde2ed16d3bc6887691dc4b419adc535a03adb2aaa03ba1e"
+    },
+    "assets/animus_hands/mask_1.f32": {
+      "bytes": 4194304,
+      "sha256": "ebceb204e1a8358be135aa218e828b4760b9b443bf1855ef5d1b7a151a494154"
+    },
+    "assets/animus_hands/mask_2.f32": {
+      "bytes": 4194304,
+      "sha256": "b439c3c8bbac35bdf0705dfec7ea31ec6f0b9e506fe1cf51749a4728b80ed378"
+    },
+    "assets/animus_hands/mask_3.f32": {
+      "bytes": 4194304,
+      "sha256": "9a71389f009145bb36fab1a55c71e9c8b6ada5d64afe3866ec3e8371047e0bdc"
+    },
+    "assets/animus_hands/original_diffuse.rgba": {
+      "bytes": 4194304,
+      "sha256": "99a5bbcf764c96e9f5c23e3d1fde6c4e11ad7608b9a26f6ed65881b9149d022a"
+    },
+    "assets/atmosphere_textures.json": {
+      "bytes": 572,
+      "sha256": "0dc55cf44745f8e12a213c018bfe4f1184b9140804124316804e471f98ddcfc3"
+    },
+    "assets/atmosphere_textures.rgba": {
+      "bytes": 81936,
+      "sha256": "44ce8017f04e5f1792741b3eea4ec820886b5340931ba57d355a9996a6ecf0a3"
+    },
+    "assets/donor/altair_arms.bin": {
+      "bytes": 6566832,
+      "sha256": "01b43f470a9e3867ba7f7eb3ef27db590c364573fbbf4e7412afb9591e37ffa6"
+    },
+    "assets/donor/altair_arms_articulated.bin": {
+      "bytes": 6566832,
+      "sha256": "77739add84a14ed6d8633b63911ff2b7356c280932be00ab7c69816ad4a2ac40"
+    },
+    "assets/donor/altair_arms_continuous.bin": {
+      "bytes": 12908928,
+      "sha256": "5ab0420adaa7c106aa58a39a2148743ff08a835e45fc9f6d4927f6eb5c30fe6e"
+    },
+    "bin/atmosphere_scene.dll": {
+      "bytes": 24576,
+      "sha256": "d340663e7edf9ccfe11853594dd286d0012f30246cb099b9c6fdc185f6134faa"
+    },
+    "bin/hand_material.dll": {
+      "bytes": 24576,
+      "sha256": "efa0261fdec79c235b8fdb5b6ffe631c3a7bb4da0d149dbe19751debeec21396"
+    },
+    "bin/hand_view.dll": {
+      "bytes": 80896,
+      "sha256": "cfc0ef01e755dbe6c04dbc1262d2e34cfd69a6770f0045ab658362bc0af6172a"
+    },
+    "bin/morph_inside_x86.dll": {
+      "bytes": 17920,
+      "sha256": "4b567c657e762d35a0b5f5ac93e0b17ee74523bd71e77fb579d618ddf72ae481"
+    },
+    "bin/msvcp140.dll": {
+      "bytes": 643512,
+      "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca"
+    },
+    "bin/native_focus_ordered.dll": {
+      "bytes": 9216,
+      "sha256": "ca1177b6ec9f4dfdf60ac5ca91a30fd20dc9419cf8293faf92eddd31c1d1ca02"
+    },
+    "bin/native_mesh_join.dll": {
+      "bytes": 12800,
+      "sha256": "18097512f7c760c0e05628d6c6fb4883fc929d06bd381ea39587c28014277331"
+    },
+    "bin/native_source_action.dll": {
+      "bytes": 13312,
+      "sha256": "7dcab85632dcd683e4b611442ca8ef7fc6b47d9233c8f73f07e32c03694d0b94"
+    },
+    "bin/native_stereo.dll": {
+      "bytes": 16896,
+      "sha256": "04fc8b403990859296478086a8bf0cf87fc9d318a05674f0aee66082039b3e95"
+    },
+    "bin/native_timer_lease.dll": {
+      "bytes": 9728,
+      "sha256": "ab62c3decc472992b53b331b93f188e26a4bdbdaec5000cacc82dad761af64f2"
+    },
+    "bin/openxr_loader.dll": {
+      "bytes": 2669568,
+      "sha256": "0c262c9384be6bc82634e03a324e2344cdff41a4140fa8935891666184e8c596"
+    },
+    "bin/reference_bridge.dll": {
+      "bytes": 601600,
+      "sha256": "c2e2ddbd0b7d562ba7d08a670ef40a7b1ab010fd54fd782dae863f5b6ab3813d"
+    },
+    "bin/solar_depth.dll": {
+      "bytes": 15872,
+      "sha256": "0cc71df8adf1840c22ad22ba6bedcca6c6d29d7d36370da1592f46a766fcae5b"
+    },
+    "bin/stock_capture.dll": {
+      "bytes": 4096,
+      "sha256": "1e08d87aad1d197383566fe5274aad262afd1acc644660ae2524b85bc2eabe75"
+    },
+    "bin/sword_physics.dll": {
+      "bytes": 115200,
+      "sha256": "7cbcbf96386404de1841852c35d550bec9cc5bf20618e64719a87fbd02648ddd"
+    },
+    "bin/vcruntime140.dll": {
+      "bytes": 178616,
+      "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+    },
+    "bin/vcruntime140_1.dll": {
+      "bytes": 50112,
+      "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+    },
+    "bin/world_weather.dll": {
+      "bytes": 26112,
+      "sha256": "56a4fa1c323cc0c936f15e38ef231a60bd24107579e269839d55bffe246e1dd9"
+    },
+    "bin/x86/msvcp140.dll": {
+      "bytes": 447616,
+      "sha256": "97e71a3c697fb1ab3af777db39009e4602525e8c3aff0837ecc7031cba188165"
+    },
+    "bin/x86/vcruntime140.dll": {
+      "bytes": 91216,
+      "sha256": "a9d7732a3c3de09f0601a7fa2555093dcb49f08e2fc62a86091461f0f38393ed"
+    },
+    "bin/xr_stereo.exe": {
+      "sha256": "ef5611c07c48a1f131f501764304671c4c1ace9fa72d76c4de5242654f75ecca",
+      "bytes": 264704
+    },
+    "bin/xrtape_layer.dll": {
+      "bytes": 97792,
+      "sha256": "1f4ce6a66ad8f8ced8d49ab76efbcbe3d8d692fa2a007aa53c1347cd8339a8f3"
+    },
+    "config/default_assassin.ini": {
+      "bytes": 528,
+      "sha256": "1290dd98319ecb795bf75c5c94d5a14cb07dd958300ab1757ede153bb0629d7a"
+    },
+    "config/template.json": {
+      "bytes": 452126,
+      "sha256": "d9b93e8bf76bad61700a4e73a303dbc5ad24491adfd758d14251031ebfa3ce05"
+    },
+    "config/user_settings.json": {
+      "bytes": 1068,
+      "sha256": "1680e90feda0148dde228253aebafcd8edb5c9584346f767102e5b41d02b9136"
+    },
+    "runtime/DLLs/_asyncio.pyd": {
+      "bytes": 65304,
+      "sha256": "76db93bd64cb4a36edb37694456f89bb588db98cf2733eb436f000b309eec3b2"
+    },
+    "runtime/DLLs/_bz2.pyd": {
+      "bytes": 84760,
+      "sha256": "1be51ef2b5acbe490217aa1ff12618d24b95df6136c6844714b9ca997b4c7f9b"
+    },
+    "runtime/DLLs/_ctypes.pyd": {
+      "bytes": 124696,
+      "sha256": "3d43869a4507ed8ece285ae85782d83bb16328cf636170acb895c227ebb142ac"
+    },
+    "runtime/DLLs/_decimal.pyd": {
+      "bytes": 253720,
+      "sha256": "23bdd07b84d2dbcb077624d6dcbfc66ab13a9ef5f9eebe31dc0ffece21b9e50c"
+    },
+    "runtime/DLLs/_elementtree.pyd": {
+      "bytes": 128280,
+      "sha256": "b4a866a63316a04e070d25acc055a1e4db9071e8e9fb6fe9cde019a8ef311ed5"
+    },
+    "runtime/DLLs/_hashlib.pyd": {
+      "bytes": 65304,
+      "sha256": "2ad55e11bddb5b65cdf6e9e126d82a3b64551f7ad9d4cbf74a1058fd7e5993bd"
+    },
+    "runtime/DLLs/_lzma.pyd": {
+      "bytes": 159512,
+      "sha256": "663f1087c2ed664c5995a3ffa64546d2e33a0fce8a9121b48cc7c056b74a2948"
+    },
+    "runtime/DLLs/_msi.pyd": {
+      "bytes": 44824,
+      "sha256": "b3bdcec56de1f2671df824f3b1c619e070c5d86abe99bc1571667e9a63007c8c"
+    },
+    "runtime/DLLs/_multiprocessing.pyd": {
+      "bytes": 34584,
+      "sha256": "3c5b0823e30810aee47fdfad567491bc33dd640c37e35c8600e75c5a8d05ce2a"
+    },
+    "runtime/DLLs/_overlapped.pyd": {
+      "bytes": 51480,
+      "sha256": "4990f62e11c0a5ab15a9ffce9d054f06d0bc9213aea0c2a414a54fa01a5eb6dc"
+    },
+    "runtime/DLLs/_queue.pyd": {
+      "bytes": 32536,
+      "sha256": "ac3b144d7d7c8ee39f29d8749c5a35c4314b5365198821605c883fd11807e766"
+    },
+    "runtime/DLLs/_socket.pyd": {
+      "bytes": 79640,
+      "sha256": "8f9ede5044643413c3b072cd31a565956498ca07cdd17fb6a04483d388fdad76"
+    },
+    "runtime/DLLs/_sqlite3.pyd": {
+      "bytes": 120088,
+      "sha256": "d077e236b709b5242d62ce4923feddbfcc719ec26612ed474ed3b25ee290d0ac"
+    },
+    "runtime/DLLs/_ssl.pyd": {
+      "bytes": 176920,
+      "sha256": "591589dadc659d1ad4856d16cd25dc8e57eaa085bf68eb2929f8f93aba69db1b"
+    },
+    "runtime/DLLs/_uuid.pyd": {
+      "bytes": 25368,
+      "sha256": "ce9e2a30c20e6b83446d9ba83bb83c5570e1b1da0e87ff467d1b4fc090da6c53"
+    },
+    "runtime/DLLs/_zoneinfo.pyd": {
+      "bytes": 45848,
+      "sha256": "21acc8fa6ab18bc2e047a59899601c50daf395edfed8908b86fc63ec21ff5286"
+    },
+    "runtime/DLLs/libcrypto-3.dll": {
+      "bytes": 5191960,
+      "sha256": "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de"
+    },
+    "runtime/DLLs/libffi-8.dll": {
+      "bytes": 39696,
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a"
+    },
+    "runtime/DLLs/libssl-3.dll": {
+      "bytes": 787224,
+      "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006"
+    },
+    "runtime/DLLs/pyexpat.pyd": {
+      "bytes": 198424,
+      "sha256": "58b95f03a2d7ec49f5260e3e874d2b9fb76e95ecc80537e27abef0c74d03cb00"
+    },
+    "runtime/DLLs/select.pyd": {
+      "bytes": 30488,
+      "sha256": "fb06ac13f8b444c3f7ae5d2af15710a4e60a126c3c61a1f1e1683f05f685626c"
+    },
+    "runtime/DLLs/sqlite3.dll": {
+      "bytes": 1500440,
+      "sha256": "ff950af2dad140377a55da6f3c242327ced0cf498db50e028abe1ed023f19b90"
+    },
+    "runtime/DLLs/tcl86t.dll": {
+      "bytes": 1867160,
+      "sha256": "a91781fe13548b89817462b00058a75fb0b607ec8ce99d265719ced573ade7b6"
+    },
+    "runtime/DLLs/tk86t.dll": {
+      "bytes": 1542552,
+      "sha256": "20139f4c327711baf18289584fa0c8112f7bb3ba55475bded21f3d107672ed94"
+    },
+    "runtime/DLLs/unicodedata.pyd": {
+      "bytes": 1141016,
+      "sha256": "f28ac3e3ad02f9e1d8b22df15fa30b2190b080261a9adc6855248548cd870d20"
+    },
+    "runtime/DLLs/winsound.pyd": {
+      "bytes": 31000,
+      "sha256": "2f92ade2dd26fe75ade6ecae1325e29559f7a76092131642939db4ab6aec67c5"
+    },
+    "runtime/Lib/site-packages/frida/__init__.py": {
+      "bytes": 72706,
+      "sha256": "2b914898b6fccc6e5525bd88cc3d617d692c7815efecf159e4a2954b1610c7d0"
+    },
+    "runtime/Lib/site-packages/frida/_frida.pyd": {
+      "bytes": 117987840,
+      "sha256": "93638a16bf0a651c6fdc8f41228ce9069e7b79d56834cce7aec9f8b6639c671c"
+    },
+    "runtime/Lib/site-packages/frida/_frida.pyi": {
+      "bytes": 27812,
+      "sha256": "7bb21a1383a2ff702d9f24babe66af9756b65b75ecb910999cb9d9f9c8af1f04"
+    },
+    "runtime/Lib/site-packages/frida/aio.py": {
+      "bytes": 73990,
+      "sha256": "6224536a4b0edd56f08e2d7b93dc83310266f1545576c33a36be0d60e265c2da"
+    },
+    "runtime/Lib/site-packages/frida/py.typed": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runtime/Lib/site-packages/frida-17.17.0.dist-info/INSTALLER": {
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    "runtime/Lib/site-packages/frida-17.17.0.dist-info/licenses/COPYING": {
+      "bytes": 2466,
+      "sha256": "803b8b5aa4151030221b3c3f71a645da6241938421e49901444a79e5cca75fa8"
+    },
+    "runtime/Lib/site-packages/frida-17.17.0.dist-info/METADATA": {
+      "bytes": 2330,
+      "sha256": "988411924f4f8dc7e4ec3bd6f8f8a1beb57686ff576259c1a8d5e8937b8f7b2b"
+    },
+    "runtime/Lib/site-packages/frida-17.17.0.dist-info/RECORD": {
+      "bytes": 1032,
+      "sha256": "b07afc2fc4b8947ee02d830d34451a2cb42dfedbc3e064574ffa6f0de6020a08"
+    },
+    "runtime/Lib/site-packages/frida-17.17.0.dist-info/REQUESTED": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runtime/Lib/site-packages/frida-17.17.0.dist-info/top_level.txt": {
+      "bytes": 6,
+      "sha256": "a0df2fb152e5742ee800d18a79a104edbdcbffb0be50209524a7e25ae71f60d1"
+    },
+    "runtime/Lib/site-packages/frida-17.17.0.dist-info/WHEEL": {
+      "bytes": 99,
+      "sha256": "85d5e2600eb95b0333b066bb9b9855ea7bb271090c58b077a84abd686a297d70"
+    },
+    "runtime/python.exe": {
+      "bytes": 103192,
+      "sha256": "01fd1819096d112696bd2152068c1195c9bd4f57b6ab776eddd98d66d44b8259"
+    },
+    "runtime/python3.dll": {
+      "bytes": 67352,
+      "sha256": "920350a7c24c46339754e38d0db34ab558e891da0b3a389d5230a0d379bee802"
+    },
+    "runtime/python311._pth": {
+      "bytes": 52,
+      "sha256": "3e42bbc0ac6a479dc48d017c3bf8dc94b98a6d37ec70205b4a033e68e408826f"
+    },
+    "runtime/python311.dll": {
+      "bytes": 5789464,
+      "sha256": "2835e0f24fb13ef019608b13817f3acf8735fbc5f786d00501c4a151226bdff1"
+    },
+    "runtime/python311.zip": {
+      "bytes": 3206323,
+      "sha256": "4951e16ebe6efb0e8631f6d059c650c065cae68929a7a1c10af3646872f8eb8e"
+    },
+    "runtime/vcruntime140.dll": {
+      "bytes": 119192,
+      "sha256": "4d292623516f65c80482081e62d5dadb759dc16e851de5db24c3cbb57b87db83"
+    },
+    "runtime/vcruntime140_1.dll": {
+      "bytes": 49528,
+      "sha256": "a113f192195f245f17389e6ecbed8005990bcb2476ddad33f7c4c6c86327afe5"
+    },
+    "save/Saved Games/1509663375.hdr": {
+      "bytes": 18,
+      "sha256": "c1b67afadef087153916cacf6bff68271d708b199db537e785fa514c34a73d30"
+    },
+    "save/Saved Games/1509663375.map": {
+      "bytes": 1688,
+      "sha256": "12d26f52ade4d8d5aba46923a50d3c300fe8082684016f4fb26f95e46899013c"
+    },
+    "save/Saved Games/1509663375.opt": {
+      "bytes": 438,
+      "sha256": "9206608dc057e1715a72a67e65beadb698e4321f7ddac9b293df2596153f64a7"
+    },
+    "save/Saved Games/1509663375.sav": {
+      "bytes": 177631,
+      "sha256": "fd50792adaf6de6acb8bea945b4681930ec4b0d9105d636e4a2c8fa3c992e491"
+    },
+    "scripts/controller_fit.py": {
+      "bytes": 814,
+      "sha256": "c53dfb6f3eb0307bc1ea7a4d340e5af4c613f0278c0d6954f4e875499fdcee59"
+    },
+    "scripts/controller_test_pose.py": {
+      "bytes": 8090,
+      "sha256": "a58f6deee4deac212e4e1057e739224e91c877420224db4779050ea30d80505a"
+    },
+    "scripts/diagnostic_report.py": {
+      "bytes": 6785,
+      "sha256": "7e9f45688e0e2c74e0bde26670704f86dc658c81a6a927e8ccd0589cb33e1261"
+    },
+    "scripts/encounter_driver.py": {
+      "bytes": 3953,
+      "sha256": "ddfa9d397f0fb507d1da02e0d75d1bd1766adef5ac190adb66bbc9460e9b4ffe"
+    },
+    "scripts/exe_identity.py": {
+      "bytes": 1189,
+      "sha256": "17e83165355d72eec35410f1a325e637d1dfc8759c11784e4b9d94e34c46731a"
+    },
+    "scripts/fallback_report.ps1": {
+      "bytes": 4244,
+      "sha256": "15590e0526ec599836b5d6959f086ed99cd3b392c84b97469cc8e767e529aace"
+    },
+    "scripts/layer_policy.py": {
+      "bytes": 1941,
+      "sha256": "224288b2fa70d4f27288d6d21f0c0f2042c0164f3c400e919d3d9189a55cb947"
+    },
+    "scripts/meta_test.py": {
+      "bytes": 35570,
+      "sha256": "7e00d939bcf668eb651159f37f75de33aea58ab449d22be48306eadd17b38a0c"
+    },
+    "scripts/preview_selftest.py": {
+      "bytes": 1468,
+      "sha256": "034a42af005153ba212b3e4c27c6bc41b290bd03dbddedbca935461f96d94f59"
+    },
+    "scripts/process_guard.py": {
+      "bytes": 7613,
+      "sha256": "48f095085c4486d2e7ae79de0349e4ab62efeaa708a9092dd5aa1cb48fbfbdd4"
+    },
+    "scripts/restore_saves.py": {
+      "bytes": 1702,
+      "sha256": "28fbef38bc9b16e0333ab3c4b046db4cf1f354d5b3e9a550a4eabef55a2181b2"
+    },
+    "scripts/runtime_diagnosis.py": {
+      "bytes": 5621,
+      "sha256": "98d385a512c295816b8f3c8d7860ea386053653524a41be0946f3f4659ff04a2"
+    },
+    "scripts/save_transaction.py": {
+      "bytes": 6173,
+      "sha256": "4d0919fb2db0d3972966df3cb100acf940d99cef8fd401bc6ed155c3bbdebdb6"
+    },
+    "scripts/session_telemetry.py": {
+      "bytes": 9717,
+      "sha256": "b09c96b57708d124894974bca9385a9198c255f67fec79010494798813e04c4e"
+    },
+    "scripts/support_report.py": {
+      "bytes": 14110,
+      "sha256": "525aa0aba97fce347983e6984b37ee322b5411737070adcd1c0c1d94dbc3ffd4"
+    },
+    "scripts/win_observer.py": {
+      "bytes": 4949,
+      "sha256": "08833d55ebb43c4a159a6d8b258655d7172d3451e90c35d2a9ba95eb7e9de823"
+    },
+    "scripts/xr_driver_diagnostics.py": {
+      "bytes": 1524,
+      "sha256": "3016e198eb02f09d2ffaca23145f863295677ba4fe4b03c1e2040a0af574c5b8"
+    },
+    "src/02_original_body.js": {
+      "bytes": 32058,
+      "sha256": "cf325ce1d21ef91c16034299be793b5932e33a6ca4a52e5234b2aa91361b706f"
+    },
+    "src/altair_sword_mesh.h": {
+      "bytes": 11031,
+      "sha256": "356a0e62e09d7f1cc9fb4b639eaef74ac5c2a312b670725db532b634fc051f52"
+    },
+    "src/altair_sword_tex.h": {
+      "bytes": 184592,
+      "sha256": "adce9a456f5cb6528a782572eb035aca2bfaf56edccf7e1cc6853a2581af156b"
+    },
+    "src/animus_color_tail.hlsl": {
+      "bytes": 1183,
+      "sha256": "796ebe040de94b4b237cebba9e73922e0cd1dce6e484184621f92385a20ca0a4"
+    },
+    "src/animus_depth_tail.hlsl": {
+      "bytes": 850,
+      "sha256": "8485eff8fe47691bc39f8af1e3b404201f606c574c0f8fc6fc6bdda5012bfe94"
+    },
+    "src/animus_effect_bridge.js": {
+      "bytes": 2689,
+      "sha256": "f93d675fc620ba3690e60371a29e165fb41684eef2021e83db29903300b093ec"
+    },
+    "src/authored_timeline.h": {
+      "bytes": 712870,
+      "sha256": "4556b2f7a6e5e94c064b0aa021f99d483f3e1551bc6992731a000448a4c2d981"
+    },
+    "src/AUTHORED_TIMELINES.json": {
+      "bytes": 13959,
+      "sha256": "c87b81990a145c25f44bff65c68cf810fda36d593ef49499daf5a87a703d7a0d"
+    },
+    "src/body.js": {
+      "bytes": 9096,
+      "sha256": "5da127f421630ebd85a047f1c701801c0d1f15e8cc8b67d211eb694a7a6a89da"
+    },
+    "src/body_axis.js": {
+      "bytes": 3703,
+      "sha256": "dc5eb31f5e959a6d51282d4c65615f7793b4b0d5359bf91f00bb1b6846964fd8"
+    },
+    "src/body_interaction.js": {
+      "bytes": 3808,
+      "sha256": "79354a2ceb8392c822e673ce487e3b51df4ec3236829af6ca12fcf342a531c51"
+    },
+    "src/climb_drive.js": {
+      "bytes": 7492,
+      "sha256": "d8afb9fddb8ec077dcc73e5ec9cb40de6a1be5bbd6a3f5c70aef50fb769bd00b"
+    },
+    "src/climb_reach.js": {
+      "bytes": 4256,
+      "sha256": "01d1694ab10d224e750333c664976ce11a11865689587ee7227c1e2f0dc46e40"
+    },
+    "src/climb_reactions.js": {
+      "bytes": 24892,
+      "sha256": "599bdbf2ba2810f879847820f8397cff6017af4316045d4e9846ca577f82f2a5"
+    },
+    "src/cloud_layer.hlsl": {
+      "bytes": 850,
+      "sha256": "269ee28768eee0cb3a00d098fa4168d9547ceacc90cc5e80abcf8fe6a1a0fa69"
+    },
+    "src/combat_native_trace.js": {
+      "bytes": 4709,
+      "sha256": "eeaed5a62f7e8abdbbfce75ec4edf8a117d21ed86604002775eee9e70e2b3d49"
+    },
+    "src/common_contact.js": {
+      "bytes": 4658,
+      "sha256": "e3cd75a5713c70d46b267f8458b4695480f226fafb173c43811512ae15bc6d1e"
+    },
+    "src/compact_hand.js": {
+      "bytes": 3372,
+      "sha256": "6569898d5bb6dc69dcb539a695fd8d8074d331795a6706c6bf16ae8b4e287036"
+    },
+    "src/connected_settings.js": {
+      "bytes": 10039,
+      "sha256": "baa2356e8e855d324c6d4402beb5b867f271f32822b348a1915924aa12ff4119"
+    },
+    "src/contact.js": {
+      "bytes": 5485,
+      "sha256": "e9e810fc4656bccb47f93dfe44cd9e9c27eb2913d8d3d0973ef44975c7b18674"
+    },
+    "src/contact_select.js": {
+      "bytes": 2549,
+      "sha256": "bd28af0a906704ca2521eec02809b427e388f65b6ed8523f92cb13c8fc777163"
+    },
+    "src/donor_avatar.cpp": {
+      "bytes": 13802,
+      "sha256": "8c8d6282abf0cab34dcd9d51bdaa1353b4c0e80cb685cdf88830e63bec45e23c"
+    },
+    "src/donor_avatar.js": {
+      "bytes": 21273,
+      "sha256": "bda3cd764350cf38abef3863c32105779a43e761929946de7dd145cfe1aab944"
+    },
+    "src/donor_finger_basis.h": {
+      "bytes": 1274,
+      "sha256": "40f725c89768390fe95f2442833800562a93bd0260bfaf1c57d201e3341ae9e0"
+    },
+    "src/donor_hands_dx10.h": {
+      "bytes": 68222,
+      "sha256": "88fe34fb69df48fd3bc7419b870ac3fc17db3ebdda8757228e941c5ba7c7fc44"
+    },
+    "src/donor_joint_pivots.h": {
+      "bytes": 2348,
+      "sha256": "21cf2b31d285a472910aea327ff6adf88cf2d8bc6346c351ad795282fffab94c"
+    },
+    "src/effect_hands.cpp": {
+      "bytes": 7688,
+      "sha256": "e26722af4ecdef08deab9df310d0f766c319612659ab5637718465ce6eed3bda"
+    },
+    "src/engine.js": {
+      "bytes": 1159077,
+      "sha256": "b889bac7d1af3626dce7a1e082f57ed1e7161a48477a7509255097e6c3f402b6"
+    },
+    "src/finger_joint_stream.inc": {
+      "bytes": 3795,
+      "sha256": "0c00880cbe7b2f66db0c33e2a6b21eb8db75c7f475828984f0568a8dd9aa138e"
+    },
+    "src/finger_palette.h": {
+      "bytes": 1089,
+      "sha256": "57df16106ef70c73bfb5e9ad7332601e2de98b56a9dd21844d9dc5ebbaf65e15"
+    },
+    "src/finger_touch_bindings.h": {
+      "bytes": 4830,
+      "sha256": "d0ca9c4b5a521a79efbfb5016dd8dc3d66eea53457a817993738a595a6583dd6"
+    },
+    "src/fragments/00_crash_monitor.js": {
+      "bytes": 5552,
+      "sha256": "5856d4365f2ab60af7a257c965fe12614a9a20f6a46d5129b6e73fc7b582d5b7"
+    },
+    "src/fragments/01_engine_response.js": {
+      "bytes": 122434,
+      "sha256": "9c046757847653a66b34f8726834b3703a8d4130ba68beed7b97faacf5aceb83"
+    },
+    "src/fragments/02_frontend_response.js": {
+      "bytes": 7084,
+      "sha256": "9ff89312a1882697b734b89e8441cd3eaf76cd7a9c75ea77044b2c4c71703702"
+    },
+    "src/fragments/03_native_sun_stereo.js": {
+      "bytes": 2525,
+      "sha256": "8c3dacf2930225327fb4262a98a3d4fd61d58ba3e0b41ece1a587f867a8d007c"
+    },
+    "src/fragments/04_native_input_telemetry.js": {
+      "bytes": 4118,
+      "sha256": "34e32debf8a2f9a8895ca9657ef393d19c57ff1434a36c1ec6a624e59135077a"
+    },
+    "src/fragments/05_native_recenter.js": {
+      "bytes": 2112,
+      "sha256": "0b1f7f7382a772bdfbb2f7b10868be3f1c8b9d3044ce76705382907325de44ed"
+    },
+    "src/fragments/06_native_light_visibility.js": {
+      "bytes": 18825,
+      "sha256": "9483ba1c95271a95d2dead561f91b5970cf5f0866f22e4da9d4be26b9f56ab0d"
+    },
+    "src/fragments/06a_hanging_body.js": {
+      "bytes": 74858,
+      "sha256": "d7ba6ec7c3677d0af6f512cb55fb919329531dfda4acb88553be2a106e0e9f09"
+    },
+    "src/fragments/06b_continuous_walk.js": {
+      "bytes": 2635,
+      "sha256": "fdc867cfa954fc5b96b9719d1587cebcaf85c78df19fdae894d7bac39cb7bd0d"
+    },
+    "src/fragments/06c_control_intent.js": {
+      "bytes": 1125,
+      "sha256": "7277565e53e13b20bb97f749b67e2c657c1a1256267b483087c18468eda80112"
+    },
+    "src/fragments/06d_peer_lifecycle.js": {
+      "bytes": 2716,
+      "sha256": "b9b8c79d484e5dc9e36e88f0e0ff81ab42923f3bdba0c66ad79a6e1e33b79fd3"
+    },
+    "src/fragments/06e_native_maintenance.js": {
+      "bytes": 1479,
+      "sha256": "d42bbfcd3511819f6c81c8d0e731fcdf8eac9969a951221c03d794b066d738d6"
+    },
+    "src/fragments/07_native_walk_channel.js": {
+      "bytes": 8213,
+      "sha256": "a13995e0dcf25327f16111f7d21a08eab1e14b1d704b09908d3e66e1f2b1339c"
+    },
+    "src/fragments/07a_first_person_view.js": {
+      "bytes": 65080,
+      "sha256": "1bf7fe5ef6128b0ab85c5a137dad1a53f0c9dd2d2962e88d464e184d2bf82848"
+    },
+    "src/fragments/08_mechanics_gate_open.js": {
+      "bytes": 329,
+      "sha256": "f7a8af0a826a94f8dfa9df1ed06d4662d364dae7d573704d219ce5264cd87439"
+    },
+    "src/fragments/09_capsule_subject.js": {
+      "bytes": 4441,
+      "sha256": "740ce115906cdfd39d31d751c4a6297e19f015a84cfadb3c6a547d80b1e39ed0"
+    },
+    "src/fragments/10_hand_view.js": {
+      "bytes": 29604,
+      "sha256": "4a376d2003bbfdcbdd6b8ee860f13cd75abe1e050d98dc0e55b11127b5c01a08"
+    },
+    "src/fragments/10a_magnet_math.js": {
+      "bytes": 1160,
+      "sha256": "1258785f7e42551f1fd716f189f6807f4762f6acd572ce727a3f86c4dbec5505"
+    },
+    "src/fragments/11_surface_anchor.js": {
+      "bytes": 8542,
+      "sha256": "5d84c67617f6402a26fddd370611adcd79be28b953ddca58b4a51f8d42a38d43"
+    },
+    "src/fragments/11a_comfort_pull.js": {
+      "bytes": 488,
+      "sha256": "b469a1e25acfd37908ecdf259003ab46e93e32475ff65014e2a043d0ecca9d7b"
+    },
+    "src/fragments/11b_ledge_transfer.js": {
+      "bytes": 6599,
+      "sha256": "c0a40a25fa1f3afb2831111446d4b1298525763ffe8b5acbeab23feab8b86798"
+    },
+    "src/fragments/12_grip_body.js": {
+      "bytes": 34848,
+      "sha256": "82a140bc99908b48c1e9ad5172f4cc4e1d26b443c383d0eb142179adcd5a0e28"
+    },
+    "src/fragments/13_mechanics_gate_close.js": {
+      "bytes": 7194,
+      "sha256": "b9f397840cd482d00bfd22c585b3b481ebfc29d6456c8f2db41e253f1a733bca"
+    },
+    "src/fragments/14_native_checkpoint_boot.js": {
+      "bytes": 5052,
+      "sha256": "05cdf40c2947e8ed40c08d7a2367f4cf9a250000f1c3ed9340ea79f4ba015b41"
+    },
+    "src/fragments/15_legacy_network_gate.js": {
+      "bytes": 3662,
+      "sha256": "915e2d4822aac67741904becaa21edcca69c8b8942d801c959d7534fbb98480c"
+    },
+    "src/fragments/16_hanging_lab_observer.js": {
+      "bytes": 1747,
+      "sha256": "48d5ec48c5c667d3a27974833c3b02e2c6a64c4c4bdfcc3b1d83ef4025f83a2e"
+    },
+    "src/fragments/17_walk_audit.js": {
+      "bytes": 1925,
+      "sha256": "62f814dab269e46bd1296c92b2789a7912a1c6975653ece686a322208cbbdbec"
+    },
+    "src/gpu_hud_bounds.h": {
+      "bytes": 7404,
+      "sha256": "f5d03874731b595ab460ed6833be882f619d2c5d2dbef6617b20fd3dec4c9e69"
+    },
+    "src/graphics_bench.js": {
+      "bytes": 13480,
+      "sha256": "277e4bb7540e1de5f4071584e44db9ab3cc7e28329dc0d3c8c1f16f62eddacf1"
+    },
+    "src/graphics_controls.js": {
+      "bytes": 5624,
+      "sha256": "4161b95803e53401ec858378282634720a779ec46c94deba8adf1d56655b7855"
+    },
+    "src/graphics_quality.js": {
+      "bytes": 9558,
+      "sha256": "07670d62a4dd5b4f49a47922899fed79a1cd6c152c94e7c0eb5b9450eb041840"
+    },
+    "src/hand_bounds.inc": {
+      "bytes": 3154,
+      "sha256": "878d9bf1332544a6f17e2813d2d53c683c43f2981d1c17f8e31669d6a591db4c"
+    },
+    "src/hand_contact.h": {
+      "bytes": 594,
+      "sha256": "2d66949f292b3ad04cdcc3bcc9e0fb569ca527b716722f7c4f519665af1e7347"
+    },
+    "src/hand_input.js": {
+      "bytes": 1408,
+      "sha256": "614c6a38391cb267d4edfb46118d3044732f353fca911370476f3590f19a9107"
+    },
+    "src/hand_intent.h": {
+      "bytes": 9841,
+      "sha256": "bbfcb5ef7fb1f68e245dd1e2a0796a774bf3cebd4f37cea08d65b14cb9210001"
+    },
+    "src/HAND_REFERENCE.json": {
+      "bytes": 24360,
+      "sha256": "cfdf1f132490c7f464c3eb76971bbc8ed19dcb794a01b25f95a4f8edf68701cc"
+    },
+    "src/hand_view.cpp": {
+      "bytes": 25304,
+      "sha256": "ab36c0283bb30daffa909e34b30ea87451cfda5277f717ee5d004f7910072082"
+    },
+    "src/hands_wire.h": {
+      "bytes": 1593,
+      "sha256": "48cd8fa62f70fb1b6bbf0b722232f3408f4626de73894461c8c0ef8ea5e677f7"
+    },
+    "src/hidden_blade_tex.h": {
+      "bytes": 267323,
+      "sha256": "22e87ab7e974f337eed80d951531406bfadc4926949edddfc7dd5ea2d1a1aac2"
+    },
+    "src/interaction_probe.js": {
+      "bytes": 2142,
+      "sha256": "2b65c2e84277c5f8363ed969f49f346413f17619000261dfe68de0f5ae66007a"
+    },
+    "src/localized_reaction.js": {
+      "bytes": 24876,
+      "sha256": "ae1a6b7cc7f894b6b6835377390f4c4fac427f23629a40526b03687c6849db5e"
+    },
+    "src/mirror.hlsl": {
+      "bytes": 448,
+      "sha256": "4412504d8cb22b113fdd673705470bdb173ffe966ca485f5079913088183bffd"
+    },
+    "src/mirror_blit.h": {
+      "bytes": 5659,
+      "sha256": "b9ea818fc7fcfb1ea434867ab0652cc67ed829922d6c497738011ebedeacc728"
+    },
+    "src/mirror_shader.h": {
+      "bytes": 3688,
+      "sha256": "e031bffcd24a3962ec63e84270a66b0eb270e3a5b8b158a22ca77774d1821ce1"
+    },
+    "src/native_action_hold.js": {
+      "bytes": 11729,
+      "sha256": "b5142796fb53f0ddbac77f9f6d28e1d2b9891383f93634c5d4c4f53487e2567a"
+    },
+    "src/native_body_adapter.js": {
+      "bytes": 3821,
+      "sha256": "044d4b8240f5358ca7b6a8ed873b603bd878ab123a265412fe3cc797ee3a68c5"
+    },
+    "src/native_body_motion.inc": {
+      "bytes": 5163,
+      "sha256": "20df3632a9a67a28b6f437afd01528914082d9b0bc4a44a55e8aa88aae7a064a"
+    },
+    "src/native_effect_port.js": {
+      "bytes": 4403,
+      "sha256": "7b90608c611b9ef6c5cd6298acfcb475e61d4c63a7220160e495014745a98e3e"
+    },
+    "src/native_equipment.js": {
+      "bytes": 5163,
+      "sha256": "d89c5c81f47a199953f891f7a22b6d150cde4b50dccbc06deba0ea64e3fa8b94"
+    },
+    "src/native_feedback.js": {
+      "bytes": 2422,
+      "sha256": "552f4674aa1de066a4d29a6274036a5ed15ead611b0e1f94fd61a93a20071670"
+    },
+    "src/native_focus_ordered.cpp": {
+      "bytes": 4056,
+      "sha256": "f19a8cacb2c65bfaa2b558700a0bb5ec96937acb959c71489e5d34542826ed80"
+    },
+    "src/native_grapple.cpp": {
+      "bytes": 5291,
+      "sha256": "9cf74a88095f1e354e57a6b3b46a20c6ac31809eeeaf932b357624066434c55d"
+    },
+    "src/native_grapple.js": {
+      "bytes": 6743,
+      "sha256": "87f4b36c94e40e6aed112c65832724818fcf09269f15a3eb126107c19357660c"
+    },
+    "src/native_hit.cpp": {
+      "bytes": 3634,
+      "sha256": "fa15ca3d7da15d7c1c00de69b2d8d02dcc98924572074b292c11f5b4a14dec27"
+    },
+    "src/native_impact.cpp": {
+      "bytes": 6748,
+      "sha256": "d85a39b38cc78fa2769fd40b0a3784d0f5409bfd23a32247a3ff86f634b66f84"
+    },
+    "src/native_local_motor.cpp": {
+      "bytes": 5059,
+      "sha256": "329ab5bba8316a879d69f63990de732da82a6138c139d0b2922538e24d2ab992"
+    },
+    "src/native_mesh_join.cpp": {
+      "bytes": 3602,
+      "sha256": "7d7824374f85080677be727ed56a6270844763976341163462d5d519e8ab7424"
+    },
+    "src/native_pair_probe.js": {
+      "bytes": 10283,
+      "sha256": "eca8f94baa9d7715a7d98e90e712af118b8289ff93b5c9d41978060f9cd3f9ef"
+    },
+    "src/native_player.js": {
+      "bytes": 13721,
+      "sha256": "4172a9c415807206cafbf657050590e4d5438b741c57be68dc9e0bc4ad406213"
+    },
+    "src/native_pose.cpp": {
+      "bytes": 2585,
+      "sha256": "624be6b37211e24c6ce3f94f09ca2866101a258fe01afa917cc98eda659415fa"
+    },
+    "src/native_pose.h": {
+      "bytes": 1431,
+      "sha256": "d0d296bab22b3284de7409c5d9dcffab6dd2803f37e07e7ce875450af24cd5c8"
+    },
+    "src/native_pull.cpp": {
+      "bytes": 8429,
+      "sha256": "3b569f4cac820e0d9962b0a4f2e456ec5df9c14d3e8b6f1e68f33cad0882cbda"
+    },
+    "src/native_reaction.cpp": {
+      "bytes": 7570,
+      "sha256": "41558b2f62c2832722641c96ccab966c578bd7a6bebbc86f330aad8f291fd842"
+    },
+    "src/native_reaction.js": {
+      "bytes": 3837,
+      "sha256": "de8364a2338398af3f988877bd8e18650839979ef2cc2cbf020dedb54535d933"
+    },
+    "src/native_source_action.cpp": {
+      "bytes": 13164,
+      "sha256": "9cbb392bba605d395ab802c647e9024eda953a4d796d62b6cc099c747e008ae6"
+    },
+    "src/native_stereo.c": {
+      "bytes": 9985,
+      "sha256": "f4809614ab411a3e5ed56ce8c8caa11ca5a035cdc018938e9cb131217c864f9e"
+    },
+    "src/native_timer_lease.cpp": {
+      "bytes": 3584,
+      "sha256": "c71fd74ecb5f58f058bfde6e24f4722f31fd73515dee46018ad1a89dd78a7ee2"
+    },
+    "src/native_ui.js": {
+      "bytes": 4574,
+      "sha256": "0e5130dd99f2e4b48060ae83d1d406c4ebf9504cdaa9530b87d55a64dbd7acab"
+    },
+    "src/native_vr_authority.js": {
+      "bytes": 16652,
+      "sha256": "fa121a28c9d9ae8ecacd7312931d30d36a574a5273b319a9ca80ae1f8f3e4949"
+    },
+    "src/native_weather.js": {
+      "bytes": 9011,
+      "sha256": "3894d2728498b2eb26ce216e822570cbdaf33da93373e8da13d27026ee95add3"
+    },
+    "src/native_wind.js": {
+      "bytes": 3865,
+      "sha256": "0d8486462382d2ba01c7f8aa141eda729e85e720ff2fafe6135e2d27a9032b3e"
+    },
+    "src/nine_observer.js": {
+      "bytes": 6861,
+      "sha256": "1ce35cf0a1550e1dc1e7cae3adbd8bc92bc9e6ed220211cd83b9280e4d8993eb"
+    },
+    "src/npc_entities.js": {
+      "bytes": 16190,
+      "sha256": "070234bbde58d7130f4d34caf1130354b1eb2e786c65ec90c5c83b3f82dcd816"
+    },
+    "src/npc_runtime.js": {
+      "bytes": 19742,
+      "sha256": "96459e5429b147a567ad215456b4757e3e84d4545e34680e6957f2f8d27a3f02"
+    },
+    "src/npc_visibility.js": {
+      "bytes": 6780,
+      "sha256": "b6adf7f1bdbc6dda23ee0fd9526449725c87945838cf28742ba2865ada9812f1"
+    },
+    "src/npc_witness.js": {
+      "bytes": 3317,
+      "sha256": "3ebb216509a3c4616a7e07ce60ab4d7a9a0a1dc8bdecb519b3e307c8e1651808"
+    },
+    "src/openxr_bindings.h": {
+      "bytes": 11564,
+      "sha256": "b9ccd5d443b54db5768b82ee74ffcaa49eb0bbfb71dc3d600093fe499958426c"
+    },
+    "src/palm_attachment.js": {
+      "bytes": 5969,
+      "sha256": "e968b4903e58c667cb03331333602c724225cad1ddb682d881fe7e606be328f3"
+    },
+    "src/palm_servo.js": {
+      "bytes": 3908,
+      "sha256": "14a807c3b85a196be11b0e64cf92c86052d21b5da65d319300a228b4eb366306"
+    },
+    "src/physical_combat.js": {
+      "bytes": 10825,
+      "sha256": "dfd921a9f1154851ec914ad8c80043cb29d614dedc696e632ca2179c5c1576c0"
+    },
+    "src/physical_grasp.js": {
+      "bytes": 8434,
+      "sha256": "16e025f5c1b620ce03a83462be100d9e7f40b25b2753e57efdf2c859360fa114"
+    },
+    "src/physical_hands.js": {
+      "bytes": 24017,
+      "sha256": "ff8acc3bd18e52ee4cd49df49fa698d08f9edead4620bed99314af19720728e8"
+    },
+    "src/physical_impact.js": {
+      "bytes": 6658,
+      "sha256": "01374b040912776326993be479a569625c38adc30b5350dc0613be87e6829912"
+    },
+    "src/physics_palm_producer.js": {
+      "bytes": 2060,
+      "sha256": "85c4718bcde2a59411e62ff92e49deed3e183a08c5a4b074fadde0dfa1c9d2c1"
+    },
+    "src/player_kernel.js": {
+      "bytes": 5437,
+      "sha256": "3d3272d49fae59c581ff5e4e807a7dd322d0c9a62d16de0c0f81a1bae8d8ff03"
+    },
+    "src/reference_bridge.cpp": {
+      "bytes": 11756,
+      "sha256": "fc788136a8fc53a135509c630ffe7d9e7c98266fdf4cdaf4012abb469ac9a736"
+    },
+    "src/reference_fixture.h": {
+      "bytes": 455867,
+      "sha256": "b5e1efaf58cf08d17e2c82f374565468fcbd0cb0523fc2b8db9db8483bc75ff8"
+    },
+    "src/reference_retarget.h": {
+      "bytes": 6721,
+      "sha256": "e9abb7262e810d22ed526883a85378f4a69fabcd5e145103bc81a1d26a9e501f"
+    },
+    "src/resolved_skin.h": {
+      "bytes": 1531,
+      "sha256": "d74b736ab7a9a83861b1854ac53db08a5f5f58886b8505690107a12363025d8b"
+    },
+    "src/return_filter.js": {
+      "bytes": 2677,
+      "sha256": "dbfd5a305aab0815daaedf4991f7759108244fe019330f1aaecf6be2c85b7481"
+    },
+    "src/runtime_api.js": {
+      "bytes": 2090,
+      "sha256": "1350ad2e5eb792cd4e92e547782bebd8fec0ef0230d52c0cb2e1f9eb28db847f"
+    },
+    "src/settings_head_only.js": {
+      "bytes": 1228,
+      "sha256": "5d6c547557f4683fbabc3f0b19dbb2de2c4297709cdd819b496f57501c4f437f"
+    },
+    "src/settings_pointer.js": {
+      "bytes": 2758,
+      "sha256": "a51495100b70540c259bb72940b0ef4dff6ca71d84d77cc77916265aadcb3021"
+    },
+    "src/settings_presentation.js": {
+      "bytes": 3345,
+      "sha256": "c2a92ae8082f6ee77ad33493132c892151c91d2607a26c0e02ef4969db3d9e19"
+    },
+    "src/single_instance.js": {
+      "bytes": 1010,
+      "sha256": "281132b45e2e6b2c1f74e4c267cdb7cbcae8972567a16503352da6fd3725f2e0"
+    },
+    "src/solar_depth.cpp": {
+      "bytes": 10106,
+      "sha256": "9305983cc2d18eda5e4dc242cc843419fd656d091929a688cb0af78920403a6c"
+    },
+    "src/solid_box.js": {
+      "bytes": 4141,
+      "sha256": "4dda73b35b45819577e3a838e7cfc2575cb0a6f54a936aa357a45d6d9ff0a625"
+    },
+    "src/solid_shapes.js": {
+      "bytes": 4970,
+      "sha256": "69ef68a377fc5fcf3827b03ca255ce5649a813e4d8047b7571f628f4ca171c29"
+    },
+    "src/stereo_wire.h": {
+      "bytes": 2248,
+      "sha256": "8c8cb94b3dd8532052c52b22831360f57a433339abff18cae0b7df8bce399ebc"
+    },
+    "src/support_drive.js": {
+      "bytes": 4039,
+      "sha256": "8476f67b6be38f5b6dc2a7f0394c93ed54c61f961414dc1d072e267b8ed3b42c"
+    },
+    "src/support_goal.js": {
+      "bytes": 1735,
+      "sha256": "b2b6ca549cb5283907bec2038771f426fff3bf5ddc2424a14bdfd2fd8a58d329"
+    },
+    "src/sword_body.h": {
+      "bytes": 5577,
+      "sha256": "341a74a0876198b14890e32d17a37cc12dcb3d93c9386e40328b35194aa42832"
+    },
+    "src/sword_mesh.h": {
+      "bytes": 5816,
+      "sha256": "6ad3e0d71ba153a67f9bbac0bb64993fce7bce861701f26db6b35ba8dd8cfa54"
+    },
+    "src/sword_physics.cpp": {
+      "bytes": 6794,
+      "sha256": "97f100a69cecbb3450b1b74a0f015c9d1e27654b90a0380a9486dadec255623d"
+    },
+    "src/sword_physics.js": {
+      "bytes": 7841,
+      "sha256": "a3c2ef2e9cc73831d70eb1aa69fa52ba9060ece048f624fc0eeb64f1e5047a9c"
+    },
+    "src/test_prop.js": {
+      "bytes": 7141,
+      "sha256": "7224296d5d25a6213a3f6180513dfe2941b0f31ac191285f72ed1adf8b222e80"
+    },
+    "src/third_party/heft/contact.cpp": {
+      "bytes": 14262,
+      "sha256": "7dc96a428d56948e4d0bc030d7525e07d694e6daeba0ce5e4dec1cf5e3a5e47d"
+    },
+    "src/third_party/heft/contact.h": {
+      "bytes": 7554,
+      "sha256": "7cd831f3f4e014af8fcb522a803492d8ce7a964c730ebca7d583a349bcaef294"
+    },
+    "src/third_party/heft/heft.cpp": {
+      "bytes": 14900,
+      "sha256": "c7f541982d8989c32c87adbd694d2adb5cc274094eb341a76e0da1422b681126"
+    },
+    "src/third_party/heft/heft.h": {
+      "bytes": 5311,
+      "sha256": "43e6216ebbedcd4edc651aa56be2d417af3c2ad45a1325d29434d40ced84e57a"
+    },
+    "src/third_party/heft/LICENSE.txt": {
+      "bytes": 5627,
+      "sha256": "42b1cb1f49b9f9432c7d9066eb36762f255ea5f292c4be6a909534086adf9ed4"
+    },
+    "src/third_party/heft/push.h": {
+      "bytes": 3558,
+      "sha256": "e918448979a27ac13b9dd4edd77fa49c625cd2cd181e721640ed6e805e8a276c"
+    },
+    "src/travel_gaze.js": {
+      "bytes": 4871,
+      "sha256": "0c924da12585330a038c54b6f108ea03b1ba76088f1945c1308825045822d09e"
+    },
+    "src/travel_steering.js": {
+      "bytes": 4430,
+      "sha256": "a4fd9103007d0f9332ea7b1388702ee8d07fbe6edda9ac22d712a9e008c6d621"
+    },
+    "src/ui_overlay_dx10.h": {
+      "bytes": 29093,
+      "sha256": "0b765712dee4a2023c4eca719633fb473b346743a250d471497dff450b3b5aff"
+    },
+    "src/ui_projection.h": {
+      "bytes": 2345,
+      "sha256": "1c5ae4113c85ffef3c43b92afd8cf690fda859af70fe77c22b0c6f245a404152"
+    },
+    "src/vendor/smaa/AreaTex.h": {
+      "bytes": 1166747,
+      "sha256": "1933bf43ce86ba71f7ed5f0fa94b148610c634dc3395b9bc67a817d51ee73af2"
+    },
+    "src/vendor/smaa/LICENSE.txt": {
+      "bytes": 1470,
+      "sha256": "2b848b67ba50ac40b53e11cf1ccdaee2a190ca83b4652cba695a5f1ce81f52ae"
+    },
+    "src/vendor/smaa/SearchTex.h": {
+      "bytes": 8610,
+      "sha256": "1fac315ab5f87b60083c9b8387af17f056204d3d1bf21500f2acc5b3e8c1a37a"
+    },
+    "src/vendor/smaa/SMAA.hlsl": {
+      "bytes": 55806,
+      "sha256": "4db53d92ef0b45661f8450303589ffabce93c352cae4282a6f32dd2b80efbeb9"
+    },
+    "src/vr_game_program.js": {
+      "bytes": 18221,
+      "sha256": "602b169861dced2cfc27dec86bb0ebf234f2840f7b3c2527898ed85862b8d538"
+    },
+    "src/weather_model.js": {
+      "bytes": 9473,
+      "sha256": "520e55679c4399d6d553096b625df2d47fa257b014820ef39b0a459d5a765246"
+    },
+    "src/world_geometry.js": {
+      "bytes": 20681,
+      "sha256": "0c871ee803fc04a721fba25ef06898303998cdefd198b21358323996f9df2ac9"
+    },
+    "src/world_particles.hlsl": {
+      "bytes": 1825,
+      "sha256": "362594d36547a31669ec5ea719a95a87576edd5eda87f02c043cc98276f4bbd6"
+    },
+    "src/world_program.js": {
+      "bytes": 7692,
+      "sha256": "e0791ce17c99556e9c3cc957d50513a7ee115ecabcfecc3e2956a3b473005039"
+    },
+    "src/world_runtime.js": {
+      "bytes": 5116,
+      "sha256": "7b77e7e790377563730a8fdadb41dd1a48396d795073522a86701dcf59d1942e"
+    },
+    "src/world_weather.cpp": {
+      "bytes": 12653,
+      "sha256": "45eb1817afc51779dd4ff97f59870570265043ff4f8c783ef5ec8871fc05d2ac"
+    },
+    "src/wrist_constraint.h": {
+      "bytes": 5416,
+      "sha256": "25bfb1e0f36f522a22e787efc1ccc7fcf34c3356b3668c2633147dc99dd9936a"
+    },
+    "src/wrist_hud_dx10.h": {
+      "bytes": 13193,
+      "sha256": "7c99ccfdd597f94e41425f610e53f16fb2575bd26b3d5d9b25c8276d53503275"
+    },
+    "src/xr_arm_rig.js": {
+      "bytes": 2702,
+      "sha256": "d768d1f8b712bb7fef02ac4f02dd0d9e2b51babeb7e3dea5860fbdecfd62c2af"
+    },
+    "src/xr_display.h": {
+      "bytes": 5783,
+      "sha256": "1b19ebdd3b58be9e478e8bcf7d7241bc3706ccac6edf123d6b15249e66c1563b"
+    },
+    "src/xr_display.hlsl": {
+      "bytes": 3263,
+      "sha256": "32f7e9b1f8db204be09cf0c09dd620588a0bcefdca0a79763034894467edc91c"
+    },
+    "src/xr_display_color.hlsli": {
+      "bytes": 603,
+      "sha256": "6619276ca0e452b75f6dfc4d0767949746a566c197dd2d8db3503733548c1d04"
+    },
+    "src/xr_display_tables.h": {
+      "bytes": 4944,
+      "sha256": "69555771e520f76c8b9f385141a3824b5a0dcb1a1bd15cbb6f66d45784cd93ec"
+    },
+    "src/xr_display_transfer.h": {
+      "bytes": 7672,
+      "sha256": "de4aaf8bdbd2a8c22375de9919bdf7dea4aacb61b0474979e2fa9e4b9c11c8be"
+    },
+    "src/xr_display_vertex.h": {
+      "bytes": 5169,
+      "sha256": "0baba009698cb8b357d0f1fdae060b175f29f6581df0356477af5d2f48dfb872"
+    },
+    "src/xr_display_world.h": {
+      "bytes": 26458,
+      "sha256": "30df41b73352e3b71c736776dbae46be50e3b92a9c1cdc40e7e500c939a7f0f0"
+    },
+    "src/xr_driver_diagnostics.h": {
+      "bytes": 3261,
+      "sha256": "d6a52b1c906d90f71ec9dcba2904038dd146f9b70f7dd1fb4cd03f9913fda022"
+    },
+    "src/xr_finger_touch.h": {
+      "bytes": 3431,
+      "sha256": "1a2cc81983bcd57bf50f7c8d77d17593771b9dbd9fe04a036073effbbe3518f8"
+    },
+    "src/xr_focus_policy.js": {
+      "bytes": 3118,
+      "sha256": "a3c74892ea6e8bdc3716b46b1f2182ff18644c2b4394e03c862abe0d76949244"
+    },
+    "src/xr_hands_export.h": {
+      "bytes": 7726,
+      "sha256": "2d806d8c125d650065979fe3509c9b010fd1a00e22e4410d14ca95975a9b1e1b"
+    },
+    "src/xr_haptic_feedback.h": {
+      "bytes": 3201,
+      "sha256": "36ffeb48cfbd41a57fdd70fe0b2c1a0ba7904dd06679c24435fac4cb55800015"
+    },
+    "src/xr_smaa.h": {
+      "bytes": 6593,
+      "sha256": "ae493e2a950acd6cf6c14d710cfa12f87fdd1a96b340eb8192a1f2feaa436ccb"
+    },
+    "src/xr_smaa.hlsl": {
+      "bytes": 1611,
+      "sha256": "0a6864aa493cb6700ce9d24f25fa847ee610062ad1cfa11f3c277c13148c62d1"
+    },
+    "src/xr_smaa_blend_ps.h": {
+      "bytes": 19507,
+      "sha256": "db98b0a2a1d0695b94079ec13eac53f420a6fdee0c2b78567beeec569ebc807f"
+    },
+    "src/xr_smaa_blend_vs.h": {
+      "bytes": 8713,
+      "sha256": "2e6c16b89cda639b44e2e6d87d5fe1d9d9700950d9e4c9b9d6413140d0cd31fe"
+    },
+    "src/xr_smaa_edge_ps.h": {
+      "bytes": 13136,
+      "sha256": "659e66ffcac863bc85cb28dc04105292b9709cb8de978fed1a9df93189f926a3"
+    },
+    "src/xr_smaa_edge_vs.h": {
+      "bytes": 9064,
+      "sha256": "fa1daeb761d3d65c6f8af0ab3753634e835b8265a6e8437db40e6b45da8d8b25"
+    },
+    "src/xr_smaa_weight_ps.h": {
+      "bytes": 65393,
+      "sha256": "e47ca92e0f89c0ab1764cb4035bf8e384c7db07406cf5f684e521278024088b7"
+    },
+    "src/xr_smaa_weight_vs.h": {
+      "bytes": 9508,
+      "sha256": "e5b871fe05e69e8271aaf0d155265c67cea5cae5c4d8e7cc5c6768114b21666e"
+    },
+    "src/xr_stereo.c": {
+      "bytes": 44320,
+      "sha256": "5d6e101b777c49f818b9e8e32abb50342b77cb8ff9567a4adc24d6252eadcb55"
+    },
+    "src/sword_grip.h": {
+      "bytes": 1368,
+      "sha256": "5403a9e522081d60e4d659a313283933cba31c41c7366a2e8aa86bd78a46bb06"
+    },
+    "src/physical_hit.js": {
+      "bytes": 25438,
+      "sha256": "2018e70e614e94f87dadabe64d413def1ea53a14389894ffac35c3a04d544fa8"
+    },
+    "src/skin_follow.js": {
+      "bytes": 1794,
+      "sha256": "3382146f007975b126316d9ce8adb25dddc2100a7cc87be424129a1ee3f53767"
+    },
+    "src/physical_react.cpp": {
+      "bytes": 11024,
+      "sha256": "5d915c56ab1272b01472ff1a8fb64421d5179b0935b60a30500b0c0b170ab5c1"
+    },
+    "src/point_impact.cpp": {
+      "bytes": 6641,
+      "sha256": "832ad2668d94d866c3ff9c4aaa19eff7e0d760f8be4f8a95d3eddd567eb61b1a"
+    },
+    "src/limb_sword.cpp": {
+      "bytes": 7760,
+      "sha256": "b1364d0652c3db3e09d6f69cf15e594a46a366dc5022b355952457252f3d6964"
+    },
+    "bin/physical_reaction.dll": {
+      "bytes": 28672,
+      "sha256": "e9af93ff71df189948ec4e2652b4660047a80c2a3653d51ee2e5c31ce049cd5b"
+    },
+    "bin/limb_sword.dll": {
+      "bytes": 81408,
+      "sha256": "3260dfbe05e29276d4d51f858228bcd55625808911279824c3fc7af81ab74c53"
+    },
+    "src/native_pins.h": {
+      "bytes": 1838,
+      "sha256": "abf7637dfe371f3b17e06f6fb20622a8b3fbbda2624f2b3836a3355a5794c07b"
+    },
+    "src/guard_controller.js": {
+      "bytes": 17835,
+      "sha256": "2fb3b579598b7b6609395c5de1cdf1ddefbfa76b517ffd0e72258b6e23a2ec9f"
+    },
+    "src/hand_support.js": {
+      "bytes": 5881,
+      "sha256": "1bdcba11e05722b4db2d07c2d5777b90a4eb300e43f0f3b9ae1f5eafa5f5c5e8"
+    },
+    "src/wall_brace.js": {
+      "bytes": 3325,
+      "sha256": "b8092a5de5546e68ab8318f575fc952071c57f26b9760f32b33139eefeafb690"
+    },
+    "src/guard_combat.js": {
+      "bytes": 24551,
+      "sha256": "48415c8ca4c9a16450c4d41d8c08371a8c847c7d505fba0cd516ad4084f0f7f6"
+    },
+    "src/recovery_point_impact.cpp": {
+      "bytes": 6641,
+      "sha256": "832ad2668d94d866c3ff9c4aaa19eff7e0d760f8be4f8a95d3eddd567eb61b1a"
+    },
+    "bin/gore_native.dll": {
+      "bytes": 74752,
+      "sha256": "366fb5cfeb4073d782ca32a83785d998dc5732024c9032df6cb73c1abddedeff"
+    },
+    "src/gore_native.cpp": {
+      "bytes": 6487,
+      "sha256": "be75744ff7a2140555ecaa00457c0f0b8be3b867ef9ad22d28a793da03e2ef51"
+    },
+    "src/wound_impl.inc": {
+      "bytes": 16724,
+      "sha256": "5872aaf6af7b8be77d7563e603761a4ad41df31a48dcd97bb9d02175a4f9fcc8"
+    },
+    "src/wound_material.js": {
+      "bytes": 6643,
+      "sha256": "216dd287d930c613552da8a795bbe1bd8564689a1adc1c5f49713a8eeae915fe"
+    },
+    "src/observe_damage.js": {
+      "bytes": 8911,
+      "sha256": "0a9d6bd94ec75e0456eb8f31905236d1a14f972221877171b473c23eb0eab869"
+    },
+    "src/bench_background_window.js": {
+      "bytes": 4144,
+      "sha256": "3f22cd5765e7f1f272456085209a6019c30fa845910b04947571af2d6ad1ed73"
+    },
+    "src/camera_motion_state.js": {
+      "bytes": 1152,
+      "sha256": "a0dee4ec7d5617b362a6517871e7f6fa054a8a7ec69f7e056fd4436675465312"
+    },
+    "src/armory_mesh.inc": {
+      "bytes": 25574,
+      "sha256": "d798d0205ac6747b66da9ad87bc13e91c07b27093c47e249f6f5215107e12ac2"
+    },
+    "src/armory_draw.inc": {
+      "bytes": 1363,
+      "sha256": "d32faa59cc384aee81cce4a76e4ac342868d7e74f0bf50a1483effb9235b7626"
+    },
+    "RUN.bat": {
+      "bytes": 331,
+      "sha256": "63101a3eb56090eec67aa704761c54fbe419efe197e8e03e0e74d3b96d6f8a8c"
+    },
+    "tools/STOP.bat": {
+      "bytes": 64,
+      "sha256": "f8440f1e362c3a3397cb5cfda56f2cc37b364fa8f0b19bf048d90e3632ef222e"
+    },
+    "tools/SHOW_LOGS.bat": {
+      "bytes": 104,
+      "sha256": "b464e5fa4a6fe75d8c88e8927a40d80cadc9180f49b577ecd7f48cb296ff756c"
+    },
+    "tools/RESTORE_SAVES.bat": {
+      "bytes": 149,
+      "sha256": "7b321b08d71450629c33692f1f8586b30e686a73e64e24281474406d62fcba10"
+    },
+    "bin/donor_pack.dll": {
+      "bytes": 84992,
+      "sha256": "c080310dbde8941ca5e047da1761a34c1b26c735770efacb864d03e64e24ae75"
+    },
+    "src/donor_pack.cpp": {
+      "bytes": 1399,
+      "sha256": "fdce36d96ce9f0dcb9b0c9cf993ab221e6191df9a865f18bd8d488ee6618a1ae"
+    }
+  }
+}
