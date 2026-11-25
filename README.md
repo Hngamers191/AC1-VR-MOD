@@ -23,6 +23,14 @@ with your own grip — running on the original game through OpenXR.
 Become Altair in full immersive VR with this Assassin's Creed VR port. Wield the hidden
 blade and Altair's sword in first person, and be an assassin in the Holy Land of Jerusalem.
 
+## The Animus weapon wheel
+
+Bring either hand to your chest and hold its grip. Move that controller’s thumbstick toward one of the eight pictured weapons, then release the grip to draw your choice. The crimson sector marks your selection and the center shows a larger view. Click the right thumbstick to open VR settings separately.
+
+![Ivory and blue Animus wheel with the Sword of Eden selected](docs/img/animus-ivory-wheel.png)
+
+Players have tested sword attacks and blocking with both the flat and the edge on headset. The illustrated wheel was also checked in both eyes in XR Sim.
+
 ## What the mod adds
 
 - **Tracked hands and body** — your own hands in first person, with live fingers and a body that moves under you
@@ -58,8 +66,7 @@ person. If you hit a problem, share your headset, the scene and steps to reprodu
 
 ## Known issues
 
-- **Stretching NPCs in third person.** People nearby can stretch or distort for a moment.
-  It does not affect play.
+- **Stretching NPCs in third person.** Nearby characters can appear elongated, with triangles extending far beyond their bodies. An investigation is in progress.
 - **Delays during combat.** Fights with several guards can slow down for a few seconds.
   That is normal for this build and it settles once the fight ends.
 
