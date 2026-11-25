@@ -25,7 +25,7 @@ blade and Altair's sword in first person, and be an assassin in the Holy Land of
 
 ## The Animus weapon wheel
 
-Bring either hand to your chest and hold its grip. Move that controller’s thumbstick toward one of the eight pictured weapons, then release the grip to draw your choice. The crimson sector marks your selection and the center shows a larger view. Click the right thumbstick to open VR settings separately.
+Bring either hand to your chest and press its trigger. Move that controller’s thumbstick toward one of the eight pictured weapons, then release the trigger to draw your choice. The crimson sector marks your selection and the center shows a larger view. Click the right thumbstick to open VR settings separately.
 
 ![Ivory and blue Animus wheel with the Sword of Eden selected](docs/img/animus-ivory-wheel.png)
 
@@ -42,6 +42,8 @@ Players have tested sword attacks and blocking with both the flat and the edge o
 - **Play as Desmond, in the modern day** *(coming next)* — step out of the Animus and walk the present-day sections in VR
 
 ## Install and launch
+
+[Download AC1 VR mod V1 for Windows](https://github.com/Hngamers191/AC1-VR-MOD/releases/download/v1.0.0/AC1-VR-mod-V1.zip).
 
 For the original **Assassin's Creed (2007)** on Steam for Windows. The base VR mod has
 been tested on Meta Quest 3.
@@ -60,6 +62,8 @@ In the headset, click the right thumbstick to open the settings menu.
 Headfirst falls, sword throwing and procedural weather are in active testing.
 
 ## AC1 VR mod V1 changelog
+
+- After returning from modern-day Desmond to Altaïr in the Animus, click the left stick to switch back to first person. Verified on headset.
 
 - Open the weapon wheel by pressing the trigger at your chest. Use the stick to select a weapon and release the trigger to equip it.
 - Draw Altaïr’s dagger from your back. Away from your chest, press the right trigger to reverse the blade while the hilt stays in your grip.
