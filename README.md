@@ -48,7 +48,7 @@ been tested on Meta Quest 3.
 
 1. Install the original **Assassin's Creed (2007)** from Steam on Windows. Use
    **Manage → Browse local files** in Steam to open the game folder.
-2. Extract the test ZIP you received. Copy the complete mod folder containing `RUN.bat`
+2. Extract the AC1 VR mod V1 ZIP. Copy the complete mod folder containing `RUN.bat`
    into the game folder, next to the game's `.exe`.
 3. Connect your headset and start its PC OpenXR runtime. Open the mod folder and run
    `RUN.bat` each time you play.
@@ -59,14 +59,18 @@ In the headset, click the right thumbstick to open the settings menu.
 
 Headfirst falls, sword throwing and procedural weather are in active testing.
 
-The mod includes hand and head collision with scenery and improved NPC detail near the
-edge of the VR view. It is experimental, and the cape and legs can still appear in first
-person. If you hit a problem, share your headset, the scene and steps to reproduce it in
-[Issues](https://github.com/Hngamers191/AC1-VR-MOD/issues).
+## AC1 VR mod V1 changelog
+
+- Open the weapon wheel by pressing the trigger at your chest. Use the stick to select a weapon and release the trigger to equip it.
+- Draw Altaïr’s dagger from your back. Away from your chest, press the right trigger to reverse the blade while the hilt stays in your grip.
+- Sword hits now let the game play the finishing reaction. A headset playthrough confirmed consistent reactions and falls across several guards in succession.
+- Third-person NPCs retain their proportions at the edge of the headset view.
+
+In first person, you can see the lower edge of Altaïr’s cape when you look down. The mod also includes hand and head collision with scenery.
 
 ## Known issues
 
-- **Stretching NPCs in third person.** Nearby characters can appear elongated, with triangles extending far beyond their bodies. An investigation is in progress.
+- **Occasional NPC flicker in third person.** A character may briefly flicker as they pass through the edge of your view.
 - **Delays during combat.** Fights with several guards can slow down for a few seconds.
   That is normal for this build and it settles once the fight ends.
 
@@ -91,3 +95,7 @@ Milacetious (Altair's Short Blade)
 Use the AC1VR DX10 collaborator test package dated 2026-11-17 as the base. With the game closed, back up the files listed in [the overlay](sword-candidate), then copy the contents of that folder into the mod folder beside its existing RUN.bat, preserving subdirectories. Run `RUN.bat --check` there before launching. For headset play, start the headset's OpenXR runtime and run `RUN.bat` without simulator arguments.
 
 The XR Sim replay recorded ordinary blade damage, an intercepted guard attack and a lethal counter against the same guard. Both processes exited cleanly and the encounter permissions and saves were restored. Physical-headset timing and feel remain unverified for this candidate. [Replay measurements](candidate-source/guard-replay.json)
+
+## Thank you
+
+Thanks for checking out Assassin’s Creed in VR and for sharing what you find in the headset. If you’d like to support development, [H_ngamers is on Ko-fi](https://ko-fi.com/hngamers).
