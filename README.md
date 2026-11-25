@@ -43,7 +43,7 @@ Players have tested sword attacks and blocking with both the flat and the edge o
 
 ## Install and launch
 
-[Download AC1 VR mod V1 for Windows](https://github.com/Hngamers191/AC1-VR-MOD/releases/download/v1.0.0/AC1-VR-mod-V1.zip).
+[Download AC1 VR mod V1 for Windows](https://github.com/Hngamers191/AC1-VR-MOD/releases/download/v1.0.1/AC1-VR-mod-V1.zip).
 
 For the original **Assassin's Creed (2007)** on Steam for Windows. The base VR mod has
 been tested on Meta Quest 3.
@@ -62,6 +62,8 @@ In the headset, click the right thumbstick to open the settings menu.
 Headfirst falls, sword throwing and procedural weather are in active testing.
 
 ## AC1 VR mod V1 changelog
+
+- **V1.0.1:** Memory Block 4 starts inside the Assassin’s Bureau. Use your hands to climb out to the street.
 
 - After returning from modern-day Desmond to Altaïr in the Animus, click the left stick to switch back to first person. Verified on headset.
 
