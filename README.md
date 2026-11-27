@@ -43,14 +43,14 @@ Players have tested sword attacks and blocking with both the flat and the edge o
 
 ## Install and launch
 
-[Download AC1 VR mod V1 for Windows](https://github.com/Hngamers191/AC1-VR-MOD/releases/download/v1.0.1/AC1-VR-mod-V1.zip).
+[Download AC VR V1.2 for Windows](https://github.com/Hngamers191/AC1-VR-MOD/releases/download/v1.2/AC-VR-V1.2.zip).
 
 For the original **Assassin's Creed (2007)** on Steam for Windows. The base VR mod has
 been tested on Meta Quest 3.
 
 1. Install the original **Assassin's Creed (2007)** from Steam on Windows. Use
    **Manage → Browse local files** in Steam to open the game folder.
-2. Extract the AC1 VR mod V1 ZIP. Copy the complete mod folder containing `RUN.bat`
+2. Extract the AC VR V1.2 ZIP. Copy the complete mod folder containing `RUN.bat`
    into the game folder, next to the game's `.exe`.
 3. Connect your headset and start its PC OpenXR runtime. Open the mod folder and run
    `RUN.bat` each time you play.
@@ -60,6 +60,19 @@ In the headset, click the right thumbstick to open the settings menu.
 ## Test notes
 
 Headfirst falls, sword throwing and procedural weather are in active testing.
+
+## What changed in V1.2
+
+- **Rendering and performance.** The DX10 build uses the native render scheduler and OpenXR stereo submission for gameplay. The headset tester reported smoother, stable play. The 87.3 FPS figure from the donor benchmark has not been verified for this release in the one-minute market test. Actual performance depends on the scene, headset settings and hardware.
+- **Combat.** Sword and dagger contact, physical blocking and controller feedback carry through to first-person fights. The game handles the final hit and fall, and defeated characters leave the blade-contact list. In the headset test, more than a dozen guards completed their hurt and fall animations across consecutive fights.
+- **Weapons and controls.** Draw the sword from your waist or Altaïr’s dagger from your back. The chest-trigger weapon wheel equips the selected weapon. Away from the chest, the right trigger flips the dagger around its hilt. The hidden blade follows the left wrist and gives feedback on extension and retraction. Armed movement and right-stick turning were adjusted for freer movement during fights.
+- **Hands and traversal.** The first-person gloves cover the wrist opening, with the white sleeves removed. The hand-mounted map, health display, grabbing and tracked-hand climbing are included.
+- **Settings and weather.** The VR settings include controls, comfort and mod options, credits and the in-headset changelog. Choose original game lighting or manually select day or night, with night lamps, weapon lighting and a separate rain toggle.
+- **Campaign.** The public launcher opens the original campaign menu and uses your saves. The market test teleport is disabled. Memory Block 4 follows its normal Bureau checkpoint.
+
+## Visual notes
+
+The Animus loading room uses a shared image for both eyes. It can look flat in the headset, and the blue-cloud view can briefly appear during transitions. The requested continuous third-person stereo loading view remains unresolved. City gameplay uses stereo rendering. Nearby NPCs can occasionally flicker at the edge of the view. The lower cape is visible when looking down in first person.
 
 ## AC1 VR mod V1 changelog
 
@@ -83,7 +96,7 @@ In first person, you can see the lower edge of Altaïr’s cape when you look do
 Found something else? Message the authors — open an
 [issue](https://github.com/Hngamers191/AC1-VR-MOD/issues), or get in touch with HNgamers
 or MonsterDeadwood directly. Say what you were doing and what happened, and send the
-newest folder from `logs\runs`; that folder is what makes a fault findable.
+newest folder from `cold_start\runs`; that folder is what makes a fault findable.
 
 ## Credits
 
